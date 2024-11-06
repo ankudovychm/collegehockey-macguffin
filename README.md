@@ -10,3 +10,5 @@ In the script, the calls to
 are commented out because they are unlikely to change throughout time. Espechially HistoricResults which is also cosntly in terms of calling to the CHN site for data. They create teams.csv and historic.csv respectively so you likely do not need to run these either. 
 
 Running this file will give you the most up to data info based on results as they post to CHNs site. 
+
+At the tie of writing this, the Macguffin holder is Denver and the reverse is Niagra. This can be seen as the most recent results in their respective csv folders in /data. (they are also printed when you run the file)
