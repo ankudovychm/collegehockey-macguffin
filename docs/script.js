@@ -32,7 +32,7 @@ function loadCSVData(url, tableId) {
 }
 
 // URLs to the CSV files in the GitHub repository
-const baseURL = "https://raw.githubusercontent.com/ankudovychm/ollegehockey-macguffin/main/data/"; 
+const baseURL = "https://raw.githubusercontent.com/ankudovychm/collegehockey-macguffin/main/data/"; 
 const macguffinCSV = baseURL + "macguffin.csv";
 const reverseMacguffinCSV = baseURL + "reverse-macguffin.csv";
 const confMacguffinsCSV = baseURL + "ConfMcguffins.csv";
