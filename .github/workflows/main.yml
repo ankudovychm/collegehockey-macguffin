@@ -1,0 +1,38 @@
+name: Update CSVs Daily
+
+# Schedule the workflow to run daily at midnight UTC
+on:
+  schedule:
+    - cron: '0 5 * * *'
+
+jobs:
+  update-csvs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+          pip install beautifulsoup4
+          pip install pandas
+
+      - name: Run update script
+        run: python update.py  
+
+      - name: Commit and push updated CSVs
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add data/*.csv 
+          git commit -m "Daily update of CSV files"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
