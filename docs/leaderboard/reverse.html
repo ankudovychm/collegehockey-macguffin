@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Macguffin Leaderboard - College Hockey MacGuffin</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../leaguewide.html" class="nav-link">League Wide History</a>
+        <a href="../conferences/index.html" class="nav-link">Conference History</a>
+        <a href="index.html" class="nav-link">Leaderboards</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="conference-page">
+        <h2>Reverse Macguffin Leaderboard</h2>
+        
+        <div class="conference-macguffin-wrapper">
+            <!-- Current MacGuffin and History Section -->
+            <div class="conference-macguffin-section">
+                <div class="macguffin-box">
+                    <img src="../assets/macguffin-placeholder.jpg" alt="MacGuffin Team Logo" class="macguffin-image" id="cons-image">
+                    <div class="macguffin-text">
+                        <h3>Current Consecutive Leader</h3>
+                        <p id="cons-info"><span class="bold-text">Loading current MacGuffin...</span></p>
+                    </div>
+                </div>
+                <div class="table-container macguffin-history">
+                    <h3>Full Consecutive Leaderboard</h3>
+                    <div class="table-wrapper">
+                        <table id="RV-range-table">
+                            <thead>
+                                <tr>
+                                    <th>Place</th>
+                                    <th>Team</th>
+                                    <th>Length (in days)</th>
+                                    <th>From</th>
+                                    <th>To</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reverse MacGuffin and History Section -->
+            <div class="conference-macguffin-section">
+                <div class="macguffin-box reverse">
+                    <img src="../assets/macguffin-placeholder.jpg" alt="Reverse MacGuffin Team Logo" class="macguffin-image" id="alltime-image">
+                    <div class="macguffin-text">
+                        <h3>Current All Time Total Leader</h3>
+                        <p id="alltime-info"><span class="bold-text">Loading current Reverse MacGuffin...</span></p>
+                    </div>
+                </div>
+                <div class="table-container reverse-history">
+                    <h3>Full All Time Total Leaderboard</h3>
+                    <div class="table-wrapper">
+                        <table id="RV-total-table">
+                            <thead>
+                                <tr>
+                                    <th>Place</th>
+                                    <th>Team</th>
+                                    <th>Total Length (in days)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+  <!-- Footer -->
+  <footer>
+    Created by <a style="color: #94BAE7" href="https://www.instagram.com/m.ish.aaa/">Misha Ankudovych</a>  || Data retrieved from <a style="color: #94BAE7" href="https://www.collegehockeynews.com/schedules/">CHN</a> || View source and submit bugs <a style="color: #94BAE7" href="https://github.com/ankudovychm/collegehockey-macguffin">here</a>
+ </footer>
+
+
+    <!-- JavaScript for dynamically loading MacGuffin data -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="../conference-page.js"></script>
+    <script src="../latest-leaderboard.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchLatestEntry(RRCSV, "cons-info","cons-image");
+            fetchLatestEntry(RTCSV, "alltime-info","alltime-image");
+            loadHistoryData("RV");
+
+            //loadConferenceData("Atlantic Hockey"); // Use the relevant conference name here
+        });
+    </script>
+</body>
+</html>

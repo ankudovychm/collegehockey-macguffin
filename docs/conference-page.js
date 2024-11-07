@@ -93,7 +93,3 @@ function loadConferenceData(conferenceName) {
     loadHistoryData(conferenceName);
 }
 
-// Usage example: Call this function on each page with the appropriate conference name
-document.addEventListener("DOMContentLoaded", () => {
-    loadConferenceData("Atlantic Hockey"); // Replace "Atlantic Hockey" with the relevant conference name for each page
-});
