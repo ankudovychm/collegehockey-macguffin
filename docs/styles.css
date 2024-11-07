@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #003366; /* Dark blue, representing team colors */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 10px;
+    border-bottom: 2px solid #003366;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Table Styling */
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #003366;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #f0f4f8;
+}
+
+td {
+    border-bottom: 1px solid #e0e6ed;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e6ed; /* Light blue-grey for even rows */
+}
+
+tr:hover {
+    background-color: #c8d8e4; /* Hover effect for rows */
+}
+
+/* Scrollable Tables */
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+/* Buttons */
+button, .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .button-link:hover {
+    background-color: #005fa3;
+}
+
+/* Links */
+a {
+    color: #005fa3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: #ffffff;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
