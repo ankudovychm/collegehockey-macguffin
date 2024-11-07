@@ -1,6 +1,6 @@
 name: Update CSVs Daily
 
-# Schedule the workflow to run daily at midnight UTC
+# Schedule the workflow to run daily at midnight EST
 on:
   schedule:
     - cron: '0 5 * * *'
@@ -20,9 +20,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests
-          pip install beautifulsoup4
-          pip install pandas
+          pip install requests beautifulsoup4 pandas
+
+      - name: Configure Git to use LF line endings
+        run: |
+          git config --global core.autocrlf false
+          git config --global core.eol lf
+          find . -type f -name "*.csv" -exec dos2unix {} \;
 
       - name: Run update script
         run: python update.py  
@@ -31,8 +35,10 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add data/*.csv 
-          git commit -m "Daily update of CSV files"
+          git add data/*.csv
+
+          # Commit changes if there are any
+          git diff-index --quiet HEAD || git commit -m "Daily update of CSV files"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
