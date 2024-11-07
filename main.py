@@ -361,6 +361,77 @@ def all_conf(data_df, teams_csv,outfile):
         writer = csv.writer(file)
         writer.writerows(csv_lines)
 
+def leaderboards(csv,outprefix):
+    """
+    :param csv: csv file that holds the Macguffin data
+    :param outprefix: the prefix to the csv file name
+    :return:
+    """
+
+    # Headers
+    ranges = []
+    data  = pd.read_csv(csv)
+
+
+    for index, row in data.iterrows():
+
+        # General info to populate the output
+        start_date = row[0]
+        team = row[1]
+
+        # If we are on the last row, this means we are at the most current
+        if index < len(data) - 1:
+            next_row = data.iloc[index + 1]
+            next_date = next_row['Date']
+        else:
+            next_date = str(datetime.today().date())
+
+        # Conerts to date objects
+        date1 = datetime.strptime(start_date, '%Y-%m-%d')
+        date2 = datetime.strptime(next_date, '%Y-%m-%d')
+
+        # Calculate the difference in days
+        difference = (date2 - date1).days
+
+        if index < len(data) - 1:
+            ranges.append([team, difference, start_date, next_date])
+        else:
+            ranges.append([team, difference, start_date, "Current"])
+
+    # Convert the ranges list to a DataFrame
+    df_ranges = pd.DataFrame(ranges, columns=["Team","Length (in days)","From","To"])
+
+    # Sort the DataFrame by the Length column in descending order
+    df_ranges = df_ranges.sort_values(by='Length (in days)', ascending=False).reset_index(drop=True)
+
+
+
+    # Group by 'Team' and calculate the sum of 'Length' for each team
+    df_team_totals = df_ranges.groupby('Team')['Length (in days)'].sum().reset_index()
+
+    # Rename columns for clarity
+    df_team_totals.columns = ['Team', 'Total Length (in days)']
+
+    df_team_totals = df_team_totals.sort_values(by='Total Length (in days)', ascending=False).reset_index(drop=True)
+
+    # Add the "Place" column to df_ranges
+    df_ranges['Place'] = df_ranges.index + 1
+    df_ranges['Place'] = df_ranges['Place'].apply(
+        lambda x: f"{x}{'st' if x == 1 else 'nd' if x == 2 else 'rd' if x == 3 else 'th'}")
+    df_ranges = df_ranges[['Place', 'Team', 'Length (in days)', 'From', 'To']]
+
+    # Add the "Place" column to df_team_totals
+    df_team_totals['Place'] = df_team_totals.index + 1
+    df_team_totals['Place'] = df_team_totals['Place'].apply(
+        lambda x: f"{x}{'st' if x == 1 else 'nd' if x == 2 else 'rd' if x == 3 else 'th'}")
+    df_team_totals = df_team_totals[['Place', 'Team', 'Total Length (in days)']]
+
+
+    df_ranges.to_csv("data/leaderboard/"+outprefix+"ranges.csv", index=False)
+    df_team_totals.to_csv("data/leaderboard/"+outprefix+"totals.csv", index=False)
+
+
+
 
 hist_csv_name = "historic.csv"
 teams_csv_name = 'teams.csv'
@@ -369,10 +440,16 @@ teams_csv_name = 'teams.csv'
 # fetch_team_conference_data(teams_csv_name)
 # HistoricResults(1900,2023,hist_csv_name)
 
+
 all_data = CurrentResults(teams_csv_name, hist_csv_name, "20242025")
 
+#leaderboards("data/macguffin.csv","forward")
+#leaderboards("data/reverse-macguffin.csv","reverse")
 
-macguffin(all_data,"data/macguffin.csv")
-ReverseMacguffin(all_data,"data/reverse-macguffin.csv")
-all_conf(all_data, teams_csv_name,"data/ConfMcguffins.csv")
+
+
+
+#macguffin(all_data,"data/macguffin.csv")
+#ReverseMacguffin(all_data,"data/reverse-macguffin.csv")
+#all_conf(all_data, teams_csv_name,"data/ConfMcguffins.csv")
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboards - College Hockey MacGuffin</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../leaguewide.html" class="nav-link">League Wide History</a>
+        <a href="index.html" class="nav-link">Conference History</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Leaderboards</h2>
+        
+        <div class="conference-list">
+            <div class="conference-box" id="AtlanticHockey">
+                <img src="../assets/forwards.png" alt="Atlantic Hockey Logo" class="conference-logo">
+                <div class="conference-info">
+                    <h3>MacGuffin Leaderboard</h3>
+                    <p>Consecutive: <strong id="forward-consec">Loading...</strong></p>
+                    <p>All Time: <strong id="forward-all">Loading...</strong></p>
+                    <a href="forwards.html" class="button-link">View Leaderboard</a>
+                </div>
+            </div>
+            
+            <div class="conference-box" id="BigTen">
+                <img src="../assets/reverse.png" alt="Big Ten Logo" class="conference-logo">
+                <div class="conference-info">
+                    <h3>Reverse MacGuffin Leaderboard</h3>
+                    <p>Consecutive: <strong id="reverse-consec">Loading...</strong></p>
+                    <p>All Time: <strong id="reverse-all">Loading...</strong></p>
+                    <a href="reverse.html" class="button-link">View Leaderboard</a>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <!-- Footer -->
+  <footer>
+    Created by <a style="color: #94BAE7" href="https://www.instagram.com/m.ish.aaa/">Misha Ankudovych</a>  || Data retrieved from <a style="color: #94BAE7" href="https://www.collegehockeynews.com/schedules/">CHN</a> || View source and submit bugs <a style="color: #94BAE7" href="https://github.com/ankudovychm/collegehockey-macguffin">here</a>
+ </footer>
+
+    <!-- JavaScript for loading data from CSV -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="../latest-leaderboard.js"></script>
+</body>
+</html>
