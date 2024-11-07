@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCHC - College Hockey MacGuffin</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../leaguewide.html" class="nav-link">League Wide History</a>
+        <a href="index.html" class="nav-link">Conference History</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="conference-page">
+        <h2>NCHC MacGuffin History</h2>
+        
+        <div class="conference-macguffin-wrapper">
+            <!-- Current MacGuffin and History Section -->
+            <div class="conference-macguffin-section">
+                <div class="macguffin-box">
+                    <img src="../assets/macguffin-placeholder.jpg" alt="MacGuffin Team Logo" class="macguffin-image" id="macguffin-image">
+                    <div class="macguffin-text">
+                        <h3>Current MacGuffin</h3>
+                        <p id="macguffin-info"><span class="bold-text">Loading current MacGuffin...</span></p>
+                        <p id="macguffin-days" class="days-held"></p> <!-- Days held information -->
+                    </div>
+                </div>
+                <div class="table-container macguffin-history">
+                    <h3>MacGuffin History</h3>
+                    <div class="table-wrapper">
+                        <table id="macguffin-history">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Team</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reverse MacGuffin and History Section -->
+            <div class="conference-macguffin-section">
+                <div class="macguffin-box reverse">
+                    <img src="../assets/macguffin-placeholder.jpg" alt="Reverse MacGuffin Team Logo" class="macguffin-image" id="reverse-macguffin-image">
+                    <div class="macguffin-text">
+                        <h3>Current Reverse MacGuffin</h3>
+                        <p id="reverse-macguffin-info"><span class="bold-text">Loading current Reverse MacGuffin...</span></p>
+                        <p id="reverse-macguffin-days" class="days-held"></p> <!-- Days held information -->
+                    </div>
+                </div>
+                <div class="table-container reverse-history">
+                    <h3>Reverse MacGuffin History</h3>
+                    <div class="table-wrapper">
+                        <table id="reverse-macguffin-history">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Team</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        Created by Misha Ankudovych with data publicly available on www.collegehockeynews.com
+    </footer>
+
+    <!-- JavaScript for dynamically loading MacGuffin data -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="../confs.js"></script>
+    <script src="../conference-page.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            loadConferenceData("NCHC"); // Use the relevant conference name here
+        });
+    </script>
+</body>
+</html>

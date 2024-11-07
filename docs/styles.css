@@ -9,13 +9,22 @@ body {
 }
 
 h1, h2, h3 {
-    color: #003366; /* Dark blue, representing team colors */
+    color: #003366;
     text-align: center;
 }
 
 h1 {
     font-size: 2.5em;
     margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666666;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -26,54 +35,85 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Table Styling */
-.table-container {
-    width: 90%;
-    margin: 20px auto;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 1em;
-}
-
-th, td {
-    padding: 12px 15px;
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #003366;
     text-align: center;
 }
 
-th {
+/* Navbar styling */
+.navbar {
     background-color: #003366;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-link {
     color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
     font-weight: bold;
-    border-bottom: 2px solid #f0f4f8;
+    font-size: 1.2em;
 }
 
-td {
-    border-bottom: 1px solid #e0e6ed;
+.nav-link:hover {
+    color: #cce5ff;
 }
 
-tr:nth-child(even) {
-    background-color: #e0e6ed; /* Light blue-grey for even rows */
+/* Flex container for MacGuffin boxes */
+.macguffin-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
-tr:hover {
-    background-color: #c8d8e4; /* Hover effect for rows */
+.macguffin-box, .reverse {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #d0d8e4;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
 }
 
-/* Scrollable Tables */
-.table-wrapper {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+/* Logo image styling with thicker blue outline */
+.macguffin-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    border: 4px solid #003366;
 }
 
-/* Buttons */
-button, .button-link {
+.macguffin-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.macguffin-text h3 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #003366;
+    margin-bottom: 4px;
+}
+
+.bold-text, .days-held {
+    font-weight: bold;
+    color: #003366;
+}
+
+.button-link {
     display: inline-block;
     padding: 10px 20px;
     margin: 15px;
@@ -87,22 +127,11 @@ button, .button-link {
     transition: background-color 0.3s ease;
 }
 
-button:hover, .button-link:hover {
+.button-link:hover {
     background-color: #005fa3;
 }
 
-/* Links */
-a {
-    color: #005fa3;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #003366;
-    text-decoration: underline;
-}
-
-/* Footer */
+/* Footer styling */
 footer {
     text-align: center;
     padding: 20px;
@@ -112,15 +141,197 @@ footer {
     margin-top: 20px;
 }
 
-/* Media Query for Smaller Screens */
+/* Table Section and Layout */
+.table-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.table-container {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+/* Main content area with padding */
+main {
+    padding: 0 20px; /* Add padding on left and right sides */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.table-wrapper {
+    max-height: 600px;
+    overflow-y: auto;
+    border: 1px solid #d0d8e4;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #d0d8e4;
+}
+
+table th {
+    cursor: pointer;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Row hover effect */
+table tbody tr:hover {
+    background-color: #e6f2ff;
+}
+
+/* Alternating row colors */
+table tbody tr:nth-child(even) {
+    background-color: #f9fbfc;
+}
+
+/* Responsive Media Query */
 @media (max-width: 768px) {
-    body {
-        font-size: 0.9em;
+    .macguffin-container, .table-section {
+        flex-direction: column;
     }
-    h1 {
-        font-size: 2em;
+}
+
+/* Conference List Styling with Responsive Grid Layout */
+.conference-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Dynamic columns */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.conference-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #d0d8e4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conference-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    border: 3px solid #003366;
+}
+
+.conference-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.conference-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #003366;
+}
+
+.conference-info p {
+    margin: 5px 0;
+    color: #666666;
+}
+
+/* Button link for conference details */
+.button-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007acc;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button-link:hover {
+    background-color: #005fa3;
+}
+
+/* Wrapper for the current and reverse MacGuffin sections */
+.conference-page .conference-macguffin-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Each MacGuffin section stacks vertically */
+.conference-page .conference-macguffin-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* For larger screens, show current and reverse MacGuffin sections side by side */
+@media (min-width: 768px) {
+    .conference-page .conference-macguffin-wrapper {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
     }
-    h2 {
-        font-size: 1.5em;
-    }
+}
+
+/* Compact styling for MacGuffin box to prevent excess height */
+.conference-page .macguffin-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #d0d8e4;
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling to control dimensions without affecting box height */
+.conference-page .macguffin-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+/* Styling for macguffin-text to vertically center text within the box */
+.conference-page .macguffin-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* History table styling for full width */
+.conference-page .table-container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
 }

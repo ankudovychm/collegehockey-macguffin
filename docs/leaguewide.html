@@ -10,37 +10,53 @@
     <!-- Navbar -->
     <nav class="navbar">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="tables.html" class="nav-link">Data Tables</a>
+        <a href="leaguewide.html" class="nav-link">League Wide History</a>
+        <a href="conferences/index.html" class="nav-link">Conference History</a>
     </nav>
 
     <!-- Data Tables -->
     <main>
-        <h2>College Hockey Data Tables</h2>
-        <div id="macguffin-table" class="table-container">
-            <h3>MacGuffin Results</h3>
-            <div class="table-wrapper">
-                <table id="macguffin"></table>
+        <h2>League Wide MacGuffin History</h2>
+        <div class="table-section">
+            <div id="macguffin-table" class="table-container">
+                <h3>MacGuffin Results</h3>
+                <div class="table-wrapper">
+                    <table id="macguffin">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Team</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Table data will be dynamically populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
 
-        <div id="reverse-macguffin-table" class="table-container">
-            <h3>Reverse MacGuffin Results</h3>
-            <div class="table-wrapper">
-                <table id="reverse-macguffin"></table>
-            </div>
-        </div>
-
-        <div id="conf-macguffins-table" class="table-container">
-            <h3>Conference MacGuffins</h3>
-            <div class="table-wrapper">
-                <table id="conf-macguffins"></table>
+            <div id="reverse-macguffin-table" class="table-container">
+                <h3>Reverse MacGuffin Results</h3>
+                <div class="table-wrapper">
+                    <table id="reverse-macguffin">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Team</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Table data will be dynamically populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </main>
 
     <!-- Footer -->
     <footer>
-        © 2023 College Hockey MacGuffin
+        Created by Misha Ankudovych with data publicly available on www.collegehockeynews.com
     </footer>
 
     <!-- JavaScript to load tables -->
