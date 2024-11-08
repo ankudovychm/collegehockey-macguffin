@@ -1,44 +1,39 @@
-name: Update CSVs Daily
+name: Daily Update
 
-# Schedule the workflow to run daily at midnight EST
 on:
   schedule:
-    - cron: '0 5 * * *'
+    # Run every day at midnight EST
+    - cron: '0 5 * * *' # GitHub Actions uses UTC, so 5 AM UTC is midnight EST
+  workflow_dispatch: # Allows manual trigger of the workflow if needed
 
 jobs:
-  update-csvs:
+  update_csvs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out the repository
-        uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 pandas
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Configure Git to use LF line endings
+      - name: Run update.py
+        run: python update.py
+
+      - name: Check for changes
         run: |
-          git config --global core.autocrlf false
-          git config --global core.eol lf
-          find . -type f -name "*.csv" -exec dos2unix {} \;
-
-      - name: Run update script
-        run: python update.py  
-
-      - name: Commit and push updated CSVs
-        run: |
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
-          git add data/*.csv
-
-          # Commit changes if there are any
-          git diff-index --quiet HEAD || git commit -m "Daily update of CSV files"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Daily CSV update"
+            git push
+          else
+            echo "No changes to commit."
