@@ -17,6 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Configure Git
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       # Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -50,4 +56,4 @@ jobs:
         run: |
           git add --all
           git commit -m "Update CSVs via GitHub Actions" || echo "No changes to commit"
-          git push origin master
+          git push origin main
