@@ -1,48 +1,46 @@
-name: Daily Update
+name: Update and Commit CSVs
 
 on:
   schedule:
-    # Run every day at midnight EST
-    - cron: '0 5 * * *' # GitHub Actions uses UTC, so 5 AM UTC is midnight EST
-  workflow_dispatch: # Allows manual trigger of the workflow if needed
+    # Run daily at 12am Eastern Time (5am UTC)
+    - cron: '0 5 * * *'
+  workflow_dispatch: # Allows manual runs
 
 jobs:
-  update_csvs:
+  update-and-commit:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
+      # Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Run the Python script
       - name: Run update.py
         run: python update.py
 
-      - name: Check for changes
+      # Configure Git
+      - name: Set up Git
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add .
-            git commit -m "Daily CSV update"
-            git push
-          else
-            echo "No changes to commit."
-          fi
-        shell: /usr/bin/bash -e {0}
-        env:
-          pythonLocation: /opt/hostedtoolcache/Python/3.12.7/x64
-          PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.7/x64/lib/pkgconfig
-          Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.7/x64
-          Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.7/x64
-          Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.7/x64
-          LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.7/x64/lib
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Commit and push changes
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "Update CSVs via GitHub Actions"
+          git push
+        continue-on-error: true # Avoid failing if there are no changes to commit
