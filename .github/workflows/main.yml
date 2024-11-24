@@ -2,45 +2,41 @@ name: Update and Commit CSVs
 
 on:
   schedule:
-    # Run daily at 12am Eastern Time (5am UTC)
-    - cron: '0 5 * * *'
-  workflow_dispatch: # Allows manual runs
+    - cron: '0 5 * * *' # 12am ET
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-and-commit:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Run the Python script
       - name: Run update.py
         run: python update.py
 
-      # Configure Git
-      - name: Set up Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: List files in data directory
+        run: ls -la data
 
-      # Commit and push changes
+      - name: Check Git status
+        run: git status
+
       - name: Commit and push changes
         run: |
-          git add .
-          git commit -m "Update CSVs via GitHub Actions"
+          git add data/
+          git commit -m "Update CSVs via GitHub Actions" || echo "No changes to commit"
           git push
-        continue-on-error: true # Avoid failing if there are no changes to commit
