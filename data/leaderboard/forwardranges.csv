@@ -336,18 +336,18 @@ Place,Team,Length (in days),From,To
 335th,Massachusetts,15,2022-10-14,2022-10-29
 336th,Yale,15,1915-02-08,1915-02-23
 337th,Harvard,15,1917-02-02,1917-02-17
-338th,Boston College,14,2023-10-07,2023-10-21
+338th,Arizona State,14,2024-11-22,Current
 339th,Penn State,14,2019-10-25,2019-11-08
 340th,Wisconsin,14,1977-01-14,1977-01-28
 341th,New Hampshire,14,2023-01-06,2023-01-20
 342th,Wisconsin,14,1976-11-27,1976-12-11
 343th,Boston University,14,2015-03-28,2015-04-11
 344th,Clarkson,14,1985-02-16,1985-03-02
-345th,Michigan Tech,14,1976-01-09,1976-01-23
+345th,Boston College,14,2023-10-07,2023-10-21
 346th,Penn State,14,2019-11-09,2019-11-23
 347th,Quinnipiac,14,2020-01-31,2020-02-14
 348th,Notre Dame,14,1976-11-13,1976-11-27
-349th,Vermont,14,1989-11-25,1989-12-09
+349th,Michigan Tech,14,1976-01-09,1976-01-23
 350th,St. Cloud State,14,2017-02-10,2017-02-24
 351th,Western Michigan,14,2017-11-11,2017-11-25
 352th,Clarkson,14,1998-01-16,1998-01-30
@@ -380,9 +380,9 @@ Place,Team,Length (in days),From,To
 379th,Michigan,14,1993-02-26,1993-03-12
 380th,Lake Superior,14,1993-03-20,1993-04-03
 381th,Minnesota,14,2008-11-08,2008-11-22
-382th,Minnesota-Duluth,14,2016-10-28,2016-11-11
+382th,Vermont,14,1989-11-25,1989-12-09
 383th,Dartmouth,14,1989-11-11,1989-11-25
-384th,Mass.-Lowell,13,2013-03-29,2013-04-11
+384th,Minnesota-Duluth,14,2016-10-28,2016-11-11
 385th,Northern Michigan,13,1987-01-03,1987-01-16
 386th,Michigan State,13,1989-03-11,1989-03-24
 387th,Colorado College,13,2017-01-07,2017-01-20
@@ -396,7 +396,7 @@ Place,Team,Length (in days),From,To
 395th,Wisconsin,13,2000-12-30,2001-01-12
 396th,Denver,13,1977-12-03,1977-12-16
 397th,Ohio State,13,2015-03-07,2015-03-20
-398th,Arizona State,13,2024-11-22,Current
+398th,Mass.-Lowell,13,2013-03-29,2013-04-11
 399th,North Dakota,13,2007-10-13,2007-10-26
 400th,St. Cloud State,13,2001-02-03,2001-02-16
 401th,Harvard,13,1950-12-20,1951-01-02
