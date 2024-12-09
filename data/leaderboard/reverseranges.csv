@@ -375,16 +375,16 @@ Place,Team,Length (in days),From,To
 374th,Sacred Heart,3,2021-02-16,2021-02-19
 375th,Merrimack,2,1991-11-13,1991-11-15
 376th,Niagara,2,2024-02-22,2024-02-24
-377th,Brown,2,2011-12-01,2011-12-03
-378th,St. Lawrence,2,1954-12-20,1954-12-22
+377th,Robert Morris,2,2024-12-07,Current
+378th,Brown,2,2011-12-01,2011-12-03
 379th,Yale,2,2022-12-31,2023-01-02
 380th,Air Force,2,2010-11-05,2010-11-07
-381th,Sacred Heart,1,2009-11-06,2009-11-07
-382th,Canisius,1,2005-02-25,2005-02-26
+381th,St. Lawrence,2,1954-12-20,1954-12-22
+382th,Sacred Heart,1,2009-11-06,2009-11-07
 383th,Bowling Green,1,2005-12-02,2005-12-03
 384th,Sacred Heart,1,2010-12-03,2010-12-04
 385th,Army,1,2011-02-04,2011-02-05
-386th,RIT,1,2024-10-11,2024-10-12
+386th,Canisius,1,2005-02-25,2005-02-26
 387th,Lindenwood,1,2023-10-07,2023-10-08
 388th,Holy Cross,1,2008-12-05,2008-12-06
 389th,Niagara,1,2007-10-12,2007-10-13
@@ -400,7 +400,7 @@ Place,Team,Length (in days),From,To
 399th,Holy Cross,1,2008-11-21,2008-11-22
 400th,Sacred Heart,1,2008-11-14,2008-11-15
 401th,Army,1,2008-11-07,2008-11-08
-402th,Holy Cross,1,2012-01-13,2012-01-14
+402th,RIT,1,2024-10-11,2024-10-12
 403th,Niagara,1,2014-01-10,2014-01-11
 404th,Minnesota State,1,2014-12-05,2014-12-06
 405th,Merrimack,1,2014-01-24,2014-01-25
@@ -415,12 +415,12 @@ Place,Team,Length (in days),From,To
 414th,Holy Cross,1,2002-01-18,2002-01-19
 415th,North Dakota,1,1971-01-15,1971-01-16
 416th,Northern Michigan,1,2014-11-07,2014-11-08
-417th,Bowling Green,1,2018-11-16,2018-11-17
-418th,Northern Michigan,1,2017-10-06,2017-10-07
+417th,Holy Cross,1,2012-01-13,2012-01-14
+418th,Bowling Green,1,2018-11-16,2018-11-17
 419th,Michigan Tech,1,2016-12-02,2016-12-03
 420th,Alaska-Anchorage,1,2017-11-03,2017-11-04
 421th,Northern Michigan,1,2017-01-06,2017-01-07
-422th,Cornell,1,1986-11-14,1986-11-15
+422th,Northern Michigan,1,2017-10-06,2017-10-07
 423th,Sacred Heart,1,2021-11-19,2021-11-20
 424th,Canisius,1,2021-11-05,2021-11-06
 425th,Bowling Green,1,2020-12-05,2020-12-06
@@ -428,12 +428,12 @@ Place,Team,Length (in days),From,To
 427th,Connecticut,1,2000-12-01,2000-12-02
 428th,Northern Michigan,1,2018-11-23,2018-11-24
 429th,Bentley,1,2000-02-18,2000-02-19
-430th,Niagara,1,2021-12-09,2021-12-10
+430th,Cornell,1,1986-11-14,1986-11-15
 431th,Notre Dame,1,1991-02-01,1991-02-02
 432th,Ferris State,1,1990-02-16,1990-02-17
 433th,Air Force,1,1990-01-02,1990-01-03
 434th,Army,1,2022-01-21,2022-01-22
 435th,Army,1,2022-01-07,2022-01-08
-436th,Army,1,1988-11-25,1988-11-26
+436th,Niagara,1,2021-12-09,2021-12-10
 437th,Michigan Tech,1,1989-12-01,1989-12-02
-438th,Robert Morris,1,2024-12-07,Current
+438th,Army,1,1988-11-25,1988-11-26
