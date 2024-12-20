@@ -295,12 +295,12 @@ Place,Team,Length (in days),From,To
 294th,Canisius,7,2009-01-09,2009-01-16
 295th,Ferris State,7,2006-02-18,2006-02-25
 296th,Wisconsin,6,1972-01-08,1972-01-14
-297th,RIT,6,2010-01-16,2010-01-22
+297th,Connecticut,6,2003-02-16,2003-02-22
 298th,American Int'l,6,2010-11-20,2010-11-26
-299th,Army,6,2024-11-09,2024-11-15
+299th,RIT,6,2010-01-16,2010-01-22
 300th,Providence,6,2007-10-20,2007-10-26
 301th,Sacred Heart,6,2008-02-02,2008-02-08
-302th,Vermont,6,2006-11-04,2006-11-10
+302th,Canisius,6,2024-12-14,Current
 303th,Connecticut,6,2011-02-05,2011-02-11
 304th,American Int'l,6,2008-11-15,2008-11-21
 305th,RIT,6,2023-02-18,2023-02-24
@@ -315,10 +315,10 @@ Place,Team,Length (in days),From,To
 314th,Alaska,6,2017-12-02,2017-12-08
 315th,St. Cloud State,6,1987-10-24,1987-10-30
 316th,Lake Superior,6,2018-11-17,2018-11-23
-317th,Minnesota State,6,2016-03-05,2016-03-11
+317th,Army,6,2024-11-09,2024-11-15
 318th,Robert Morris,6,2005-10-09,2005-10-15
-319th,Connecticut,6,2003-02-16,2003-02-22
-320th,American Int'l,6,2008-11-08,2008-11-14
+319th,American Int'l,6,2008-11-08,2008-11-14
+320th,Vermont,6,2006-11-04,2006-11-10
 321th,Holy Cross,6,2022-01-15,2022-01-21
 322th,Air Force,6,2021-11-13,2021-11-19
 323th,Yale,6,1988-01-02,1988-01-08
@@ -331,7 +331,7 @@ Place,Team,Length (in days),From,To
 330th,Bemidji State,6,2016-02-13,2016-02-19
 331th,Bemidji State,6,2019-01-12,2019-01-18
 332th,Lake Superior,6,2018-11-10,2018-11-16
-333th,Minnesota,6,1973-02-03,1973-02-09
+333th,Minnesota State,6,2016-03-05,2016-03-11
 334th,Ferris State,6,2015-01-02,2015-01-08
 335th,Northeastern,6,1990-12-30,1991-01-05
 336th,Ferris State,6,2014-11-08,2014-11-14
@@ -339,15 +339,15 @@ Place,Team,Length (in days),From,To
 338th,American Int'l,6,2014-01-04,2014-01-10
 339th,Alaska,6,2014-11-29,2014-12-05
 340th,Minnesota,6,1973-01-27,1973-02-02
-341th,Robert Morris,6,2012-01-14,2012-01-20
+341th,Minnesota,6,1973-02-03,1973-02-09
 342th,Colorado College,6,1972-12-28,1973-01-03
-343th,Boston College,5,1974-02-15,1974-02-20
+343th,Robert Morris,6,2012-01-14,2012-01-20
 344th,Wisconsin,5,1972-03-03,1972-03-08
 345th,Harvard,5,1960-02-22,1960-02-27
-346th,Canisius,5,2024-12-14,Current
+346th,RIT,5,2010-11-07,2010-11-12
 347th,Wisconsin,5,1972-01-02,1972-01-07
-348th,RIT,5,2010-11-07,2010-11-12
-349th,Bentley,5,2012-01-01,2012-01-06
+348th,Bentley,5,2012-01-01,2012-01-06
+349th,Boston College,5,1974-02-15,1974-02-20
 350th,Notre Dame,5,1989-12-28,1990-01-02
 351th,American Int'l,5,2022-01-30,2022-02-04
 352th,Alaska-Anchorage,5,1991-03-10,1991-03-15
