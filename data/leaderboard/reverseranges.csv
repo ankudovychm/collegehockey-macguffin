@@ -234,9 +234,9 @@ Place,Team,Length (in days),From,To
 233th,Mercyhurst,8,2006-10-13,2006-10-21
 234th,Brown,8,2004-11-05,2004-11-13
 235th,American Int'l,8,2009-02-13,2009-02-21
-236th,RIT,8,2023-02-09,2023-02-17
-237th,Massachusetts,8,2007-10-26,2007-11-03
-238th,Air Force,8,2023-10-13,2023-10-21
+236th,Massachusetts,8,2007-10-26,2007-11-03
+237th,Canisius,8,2024-12-14,Current
+238th,RIT,8,2023-02-09,2023-02-17
 239th,Connecticut,8,2010-11-12,2010-11-20
 240th,Northeastern,8,2014-02-07,2014-02-15
 241th,Alaska-Anchorage,8,2015-01-08,2015-01-16
@@ -245,15 +245,15 @@ Place,Team,Length (in days),From,To
 244th,Michigan,8,1973-02-23,1973-03-03
 245th,Mercyhurst,8,2002-03-01,2002-03-09
 246th,Bentley,8,2002-12-03,2002-12-11
-247th,Holy Cross,8,2022-01-22,2022-01-30
+247th,Air Force,8,2023-10-13,2023-10-21
 248th,St. Lawrence,8,1987-01-02,1987-01-10
 249th,Army,8,2020-01-24,2020-02-01
-250th,Sacred Heart,7,2009-02-21,2009-02-28
-251th,Connecticut,7,2010-02-20,2010-02-27
+250th,Holy Cross,8,2022-01-22,2022-01-30
+251th,Sacred Heart,7,2009-02-21,2009-02-28
 252th,Mercyhurst,7,2010-11-26,2010-12-03
 253th,Holy Cross,7,2009-02-28,2009-03-07
 254th,Holy Cross,7,2003-03-08,2003-03-15
-255th,Canisius,7,2024-12-14,Current
+255th,Connecticut,7,2010-02-20,2010-02-27
 256th,Princeton,7,1988-11-18,1988-11-25
 257th,Harvard,7,2024-01-06,2024-01-13
 258th,Yale,7,1987-02-28,1987-03-07
@@ -269,7 +269,7 @@ Place,Team,Length (in days),From,To
 268th,Bentley,7,2001-01-26,2001-02-02
 269th,Holy Cross,7,2009-10-30,2009-11-06
 270th,Robert Morris,7,2012-01-06,2012-01-13
-271th,Omaha,7,2022-10-07,2022-10-14
+271th,Robert Morris,7,2024-12-07,2024-12-14
 272th,Brown,7,1958-02-12,1958-02-19
 273th,Clarkson,7,2022-10-29,2022-11-05
 274th,Rensselaer,7,2022-11-05,2022-11-12
@@ -286,7 +286,7 @@ Place,Team,Length (in days),From,To
 285th,Canisius,7,2020-02-01,2020-02-08
 286th,Minnesota,7,1989-11-11,1989-11-18
 287th,Colorado College,7,1989-12-02,1989-12-09
-288th,Robert Morris,7,2024-12-07,2024-12-14
+288th,Niagara,7,2024-11-02,2024-11-09
 289th,Holy Cross,7,2007-10-13,2007-10-20
 290th,Air Force,7,2009-01-16,2009-01-23
 291th,Canisius,7,2009-02-06,2009-02-13
@@ -294,7 +294,7 @@ Place,Team,Length (in days),From,To
 293th,Ohio State,7,2006-02-11,2006-02-18
 294th,Canisius,7,2009-01-09,2009-01-16
 295th,Ferris State,7,2006-02-18,2006-02-25
-296th,Niagara,7,2024-11-02,2024-11-09
+296th,Omaha,7,2022-10-07,2022-10-14
 297th,Wisconsin,6,1972-01-08,1972-01-14
 298th,American Int'l,6,2010-11-20,2010-11-26
 299th,Connecticut,6,2003-02-16,2003-02-22
