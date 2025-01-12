@@ -379,16 +379,16 @@ Place,Team,Length (in days),From,To
 378th,Brown,2,2011-12-01,2011-12-03
 379th,St. Lawrence,2,1954-12-20,1954-12-22
 380th,Merrimack,2,1991-11-13,1991-11-15
-381th,Niagara,2,2024-02-22,2024-02-24
-382th,Yale,2,2022-12-31,2023-01-02
-383th,Sacred Heart,1,2008-11-14,2008-11-15
-384th,Minnesota-Duluth,1,1973-02-02,1973-02-03
+381th,RIT,2,2025-01-10,Current
+382th,Niagara,2,2024-02-22,2024-02-24
+383th,Yale,2,2022-12-31,2023-01-02
+384th,Sacred Heart,1,2008-11-14,2008-11-15
 385th,Holy Cross,1,2012-01-13,2012-01-14
 386th,Sacred Heart,1,2010-12-03,2010-12-04
 387th,Army,1,2011-02-04,2011-02-05
 388th,Sacred Heart,1,2009-11-06,2009-11-07
 389th,Denver,1,1973-11-09,1973-11-10
-390th,Bowling Green,1,2005-12-02,2005-12-03
+390th,Minnesota-Duluth,1,1973-02-02,1973-02-03
 391th,Niagara,1,2007-10-12,2007-10-13
 392th,Boston College,1,2006-12-08,2006-12-09
 393th,Alaska-Anchorage,1,1980-10-31,1980-11-01
@@ -404,7 +404,7 @@ Place,Team,Length (in days),From,To
 403th,Army,1,2008-11-07,2008-11-08
 404th,Holy Cross,1,2002-01-18,2002-01-19
 405th,Canisius,1,2005-02-25,2005-02-26
-406th,Air Force,1,2014-01-03,2014-01-04
+406th,Bowling Green,1,2005-12-02,2005-12-03
 407th,Niagara,1,2014-01-10,2014-01-11
 408th,Merrimack,1,2014-01-24,2014-01-25
 409th,Bowling Green,1,2018-11-16,2018-11-17
@@ -424,8 +424,8 @@ Place,Team,Length (in days),From,To
 423th,Connecticut,1,2000-12-01,2000-12-02
 424th,Cornell,1,1986-11-14,1986-11-15
 425th,Northern Michigan,1,2014-11-07,2014-11-08
-426th,Sacred Heart,1,2021-11-19,2021-11-20
-427th,Alaska,1,2019-02-08,2019-02-09
+426th,Air Force,1,2014-01-03,2014-01-04
+427th,Sacred Heart,1,2021-11-19,2021-11-20
 428th,Bowling Green,1,2020-12-05,2020-12-06
 429th,Air Force,1,1990-01-02,1990-01-03
 430th,Michigan Tech,1,1989-12-01,1989-12-02
@@ -433,9 +433,9 @@ Place,Team,Length (in days),From,To
 432th,Ferris State,1,1990-02-16,1990-02-17
 433th,Northern Michigan,1,2018-11-23,2018-11-24
 434th,Canisius,1,2021-11-05,2021-11-06
-435th,Army,1,1988-11-25,1988-11-26
-436th,Army,1,2022-01-21,2022-01-22
+435th,Alaska,1,2019-02-08,2019-02-09
+436th,Army,1,1988-11-25,1988-11-26
 437th,Army,1,2022-01-07,2022-01-08
 438th,RIT,1,2024-10-11,2024-10-12
 439th,Niagara,1,2021-12-09,2021-12-10
-440th,RIT,1,2025-01-10,Current
+440th,Army,1,2022-01-21,2022-01-22
