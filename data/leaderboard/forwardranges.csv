@@ -692,7 +692,7 @@ Place,Team,Length (in days),From,To
 691th,Boston College,6,1990-01-07,1990-01-13
 692th,Miami,6,1992-01-18,1992-01-24
 693th,Boston University,6,1974-01-12,1974-01-18
-694th,St. Lawrence,5,2008-01-13,2008-01-18
+694th,Minnesota,5,2010-11-28,2010-12-03
 695th,Michigan,5,1966-02-26,1966-03-03
 696th,Maine,5,2009-02-01,2009-02-06
 697th,Colorado College,5,1954-12-17,1954-12-22
@@ -704,10 +704,10 @@ Place,Team,Length (in days),From,To
 703th,Dartmouth,5,1998-01-11,1998-01-16
 704th,Notre Dame,5,2014-03-16,2014-03-21
 705th,Harvard,5,2022-03-19,2022-03-24
-706th,Michigan State,5,1989-03-25,1989-03-30
+706th,St. Lawrence,5,2008-01-13,2008-01-18
 707th,Michigan Tech,5,1973-03-06,1973-03-11
-708th,Minnesota,5,2010-11-28,2010-12-03
-709th,Boston University,4,1959-02-21,1959-02-25
+708th,Michigan State,5,1989-03-25,1989-03-30
+709th,North Dakota,5,2025-01-11,Current
 710th,Boston College,4,1974-01-18,1974-01-22
 711th,North Dakota,4,1965-02-13,1965-02-17
 712th,Massachusetts,4,2009-11-24,2009-11-28
@@ -726,8 +726,8 @@ Place,Team,Length (in days),From,To
 725th,Vermont,4,1998-11-24,1998-11-28
 726th,Dartmouth,4,1950-02-17,1950-02-21
 727th,Boston College,4,2006-10-27,2006-10-31
-728th,Yale,4,1936-01-18,1936-01-22
-729th,North Dakota,4,2025-01-11,Current
+728th,Boston University,4,1959-02-21,1959-02-25
+729th,Yale,4,1936-01-18,1936-01-22
 730th,Providence,4,1980-03-01,1980-03-05
 731th,Boston College,4,1974-02-07,1974-02-11
 732th,Denver,4,1973-03-11,1973-03-15
