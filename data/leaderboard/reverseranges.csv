@@ -255,13 +255,13 @@ Place,Team,Length (in days),From,To
 254th,Canisius,7,2009-02-06,2009-02-13
 255th,Michigan,7,1972-12-02,1972-12-09
 256th,Canisius,7,2009-01-09,2009-01-16
-257th,Robert Morris,7,2012-01-06,2012-01-13
+257th,Army,7,1969-02-24,1969-03-03
 258th,Bemidji State,7,2016-12-03,2016-12-10
-259th,Army,7,1969-02-24,1969-03-03
+259th,Northern Michigan,7,2014-11-22,2014-11-29
 260th,Rensselaer,7,1999-11-20,1999-11-27
 261th,Northern Michigan,7,2015-10-24,2015-10-31
 262th,Yale,7,1960-02-27,1960-03-05
-263th,Northern Michigan,7,2014-11-22,2014-11-29
+263th,Bemidji State,7,2016-11-25,2016-12-02
 264th,Yale,7,1987-02-28,1987-03-07
 265th,Dartmouth,7,1988-11-11,1988-11-18
 266th,Princeton,7,1988-11-18,1988-11-25
@@ -274,10 +274,10 @@ Place,Team,Length (in days),From,To
 273th,Bentley,7,2021-11-06,2021-11-13
 274th,Canisius,7,2020-02-01,2020-02-08
 275th,Alaska,7,2019-10-26,2019-11-02
-276th,Brown,7,1958-02-12,1958-02-19
-277th,Rensselaer,7,2022-11-05,2022-11-12
-278th,Robert Morris,7,2024-12-07,2024-12-14
-279th,Bemidji State,7,2016-11-25,2016-12-02
+276th,RIT,7,2025-01-10,Current
+277th,Robert Morris,7,2024-12-07,2024-12-14
+278th,Brown,7,1958-02-12,1958-02-19
+279th,Rensselaer,7,2022-11-05,2022-11-12
 280th,Colorado College,7,1989-12-02,1989-12-09
 281th,Harvard,7,2024-01-06,2024-01-13
 282th,Wisconsin,7,2006-02-04,2006-02-11
@@ -287,7 +287,7 @@ Place,Team,Length (in days),From,To
 286th,Holy Cross,7,2003-03-08,2003-03-15
 287th,Holy Cross,7,2007-10-13,2007-10-20
 288th,Ferris State,7,2006-02-18,2006-02-25
-289th,Sacred Heart,7,2003-01-07,2003-01-14
+289th,Robert Morris,7,2012-01-06,2012-01-13
 290th,Mercyhurst,7,2010-11-26,2010-12-03
 291th,Holy Cross,7,2012-01-27,2012-02-03
 292th,Connecticut,7,2012-01-20,2012-01-27
@@ -295,7 +295,7 @@ Place,Team,Length (in days),From,To
 294th,Connecticut,7,2010-02-20,2010-02-27
 295th,Michigan Tech,7,1973-02-16,1973-02-23
 296th,North Dakota,7,1973-02-09,1973-02-16
-297th,Robert Morris,6,2012-01-14,2012-01-20
+297th,Sacred Heart,7,2003-01-07,2003-01-14
 298th,Minnesota,6,1973-02-03,1973-02-09
 299th,Connecticut,6,2011-02-05,2011-02-11
 300th,American Int'l,6,2010-11-20,2010-11-26
@@ -303,7 +303,7 @@ Place,Team,Length (in days),From,To
 302th,Minnesota,6,1973-11-17,1973-11-23
 303th,RIT,6,2010-01-16,2010-01-22
 304th,Minnesota,6,1973-01-27,1973-02-02
-305th,Quinnipiac,6,2001-11-25,2001-12-01
+305th,Robert Morris,6,2012-01-14,2012-01-20
 306th,Colgate,6,2004-10-30,2004-11-05
 307th,Providence,6,2007-10-20,2007-10-26
 308th,Vermont,6,2006-11-04,2006-11-10
@@ -314,14 +314,14 @@ Place,Team,Length (in days),From,To
 313th,Canisius,6,2021-12-03,2021-12-09
 314th,Lake Superior,6,2018-11-17,2018-11-23
 315th,Bemidji State,6,2019-01-12,2019-01-18
-316th,RIT,6,2025-01-10,Current
+316th,Northeastern,6,1990-12-30,1991-01-05
 317th,Mercyhurst,6,2024-02-16,2024-02-22
 318th,Holy Cross,6,2022-01-15,2022-01-21
 319th,Air Force,6,2021-11-13,2021-11-19
 320th,Bowling Green,6,2019-11-23,2019-11-29
 321th,Wisconsin,6,1972-01-08,1972-01-14
 322th,Northern Michigan,6,2015-10-17,2015-10-23
-323th,Northeastern,6,1990-12-30,1991-01-05
+323th,Minnesota State,6,2016-03-05,2016-03-11
 324th,Lake Superior,6,2018-11-10,2018-11-16
 325th,Bemidji State,6,2019-11-02,2019-11-08
 326th,Alaska-Anchorage,6,2023-10-21,2023-10-27
@@ -334,7 +334,7 @@ Place,Team,Length (in days),From,To
 333th,Army,6,2023-01-28,2023-02-03
 334th,Niagara,6,2023-02-03,2023-02-09
 335th,Yale,6,1988-01-02,1988-01-08
-336th,Minnesota State,6,2016-03-05,2016-03-11
+336th,Quinnipiac,6,2001-11-25,2001-12-01
 337th,Bemidji State,6,2016-02-13,2016-02-19
 338th,St. Cloud State,6,1987-10-24,1987-10-30
 339th,Ferris State,6,2014-11-08,2014-11-14
