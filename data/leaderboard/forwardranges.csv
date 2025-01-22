@@ -693,14 +693,14 @@ Place,Team,Length (in days),From,To
 692th,North Dakota,6,2025-01-11,2025-01-17
 693th,Cornell,6,1986-03-15,1986-03-21
 694th,Minnesota,6,1987-11-07,1987-11-13
-695th,Maine,5,2003-02-02,2003-02-07
+695th,Western Michigan,5,2025-01-17,Current
 696th,St. Lawrence,5,2008-01-13,2008-01-18
-697th,Maine,5,2009-02-01,2009-02-06
-698th,Minnesota,5,2010-11-28,2010-12-03
+697th,Maine,5,2003-02-02,2003-02-07
+698th,Maine,5,2009-02-01,2009-02-06
 699th,Michigan,5,1966-02-26,1966-03-03
 700th,Michigan Tech,5,1973-03-06,1973-03-11
 701th,Ohio State,5,2011-10-15,2011-10-20
-702th,Notre Dame,5,2014-03-16,2014-03-21
+702th,Minnesota,5,2010-11-28,2010-12-03
 703th,Vermont,5,1996-03-23,1996-03-28
 704th,Dartmouth,5,1998-01-11,1998-01-16
 705th,Colorado College,5,1954-12-17,1954-12-22
@@ -708,7 +708,7 @@ Place,Team,Length (in days),From,To
 707th,Harvard,5,2022-03-19,2022-03-24
 708th,Robert Morris,5,2019-10-20,2019-10-25
 709th,Michigan,5,1995-03-25,1995-03-30
-710th,North Dakota,4,1965-02-13,1965-02-17
+710th,Notre Dame,5,2014-03-16,2014-03-21
 711th,Vermont,4,1998-11-24,1998-11-28
 712th,Boston College,4,1999-01-09,1999-01-13
 713th,Boston College,4,2002-11-15,2002-11-19
@@ -716,8 +716,8 @@ Place,Team,Length (in days),From,To
 715th,Massachusetts,4,2009-11-24,2009-11-28
 716th,Boston College,4,1974-02-07,1974-02-11
 717th,Northeastern,4,1999-02-01,1999-02-05
-718th,Denver,4,1973-03-11,1973-03-15
-719th,Minnesota,4,1969-01-04,1969-01-08
+718th,North Dakota,4,1965-02-13,1965-02-17
+719th,Denver,4,1973-03-11,1973-03-15
 720th,Dartmouth,4,1968-02-17,1968-02-21
 721th,Colorado College,4,1978-03-11,1978-03-15
 722th,Providence,4,1980-03-01,1980-03-05
@@ -727,7 +727,7 @@ Place,Team,Length (in days),From,To
 726th,Northeastern,4,2021-11-08,2021-11-12
 727th,Boston University,4,1950-02-13,1950-02-17
 728th,Yale,4,1952-02-02,1952-02-06
-729th,Western Michigan,4,2025-01-17,Current
+729th,Minnesota,4,1969-01-04,1969-01-08
 730th,Boston College,4,2006-10-27,2006-10-31
 731th,Boston College,4,1974-01-18,1974-01-22
 732th,Yale,4,1936-01-18,1936-01-22
