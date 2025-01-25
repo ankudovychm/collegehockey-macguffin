@@ -258,7 +258,7 @@ Place,Team,Length (in days),From,To
 257th,Rensselaer,7,1999-11-20,1999-11-27
 258th,Niagara,7,2024-11-02,2024-11-09
 259th,Canisius,7,2022-01-08,2022-01-15
-260th,Dartmouth,7,1988-11-11,1988-11-18
+260th,Brown,7,1958-02-12,1958-02-19
 261th,Princeton,7,1988-11-18,1988-11-25
 262th,Bemidji State,7,2016-12-03,2016-12-10
 263th,Bemidji State,7,2016-11-25,2016-12-02
@@ -269,12 +269,12 @@ Place,Team,Length (in days),From,To
 268th,North Dakota,7,1973-11-10,1973-11-17
 269th,Connecticut,7,2010-02-20,2010-02-27
 270th,Michigan,7,1972-12-02,1972-12-09
-271th,Air Force,7,2009-01-16,2009-01-23
-272th,Minnesota,7,1989-11-11,1989-11-18
-273th,Omaha,7,2022-10-07,2022-10-14
+271th,Minnesota,7,1989-11-11,1989-11-18
+272th,Omaha,7,2022-10-07,2022-10-14
+273th,Clarkson,7,2022-10-29,2022-11-05
 274th,Rensselaer,7,2022-11-05,2022-11-12
-275th,Clarkson,7,2022-10-29,2022-11-05
-276th,Brown,7,1958-02-12,1958-02-19
+275th,Robert Morris,7,2025-01-18,Current
+276th,Dartmouth,7,1988-11-11,1988-11-18
 277th,Robert Morris,7,2024-12-07,2024-12-14
 278th,Bentley,7,2021-11-06,2021-11-13
 279th,Colorado College,7,1989-12-02,1989-12-09
@@ -296,12 +296,12 @@ Place,Team,Length (in days),From,To
 295th,Ferris State,7,2006-02-18,2006-02-25
 296th,Harvard,7,2024-01-06,2024-01-13
 297th,North Dakota,7,1973-02-09,1973-02-16
-298th,Harvard,6,1953-02-07,1953-02-13
-299th,Connecticut,6,2011-02-05,2011-02-11
+298th,Air Force,7,2009-01-16,2009-01-23
+299th,Harvard,6,1953-02-07,1953-02-13
 300th,American Int'l,6,2010-11-20,2010-11-26
 301th,RIT,6,2010-01-16,2010-01-22
 302th,Robert Morris,6,2005-10-09,2005-10-15
-303th,Sacred Heart,6,2008-02-02,2008-02-08
+303th,Connecticut,6,2011-02-05,2011-02-11
 304th,Minnesota,6,1973-02-03,1973-02-09
 305th,Minnesota,6,1973-11-17,1973-11-23
 306th,Colorado College,6,1972-12-28,1973-01-03
@@ -314,7 +314,7 @@ Place,Team,Length (in days),From,To
 313th,Niagara,6,2023-02-03,2023-02-09
 314th,Mercyhurst,6,2024-02-16,2024-02-22
 315th,Canisius,6,2021-12-03,2021-12-09
-316th,Robert Morris,6,2025-01-18,Current
+316th,Air Force,6,2021-11-13,2021-11-19
 317th,Lake Superior,6,2018-11-10,2018-11-16
 318th,Lake Superior,6,2018-11-17,2018-11-23
 319th,Army,6,2024-11-09,2024-11-15
@@ -322,8 +322,8 @@ Place,Team,Length (in days),From,To
 321th,Providence,6,2007-10-20,2007-10-26
 322th,Minnesota,6,1973-01-27,1973-02-02
 323th,American Int'l,6,2008-11-08,2008-11-14
-324th,Holy Cross,6,2022-01-15,2022-01-21
-325th,Air Force,6,2021-11-13,2021-11-19
+324th,Sacred Heart,6,2008-02-02,2008-02-08
+325th,Holy Cross,6,2022-01-15,2022-01-21
 326th,Bowling Green,6,2019-11-23,2019-11-29
 327th,Bemidji State,6,2019-11-02,2019-11-08
 328th,Northeastern,6,1990-12-30,1991-01-05
