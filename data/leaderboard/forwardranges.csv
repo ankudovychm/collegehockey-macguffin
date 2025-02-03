@@ -771,19 +771,19 @@ Place,Team,Length (in days),From,To
 770th,Colorado College,2,1960-01-09,1960-01-11
 771th,Boston University,2,1937-02-24,1937-02-26
 772th,Minnesota-Duluth,2,1984-03-22,1984-03-24
-773th,Minnesota,2,2023-04-06,2023-04-08
-774th,Yale,2,1912-01-01,1912-01-03
-775th,Yale,2,1990-03-02,1990-03-04
+773th,Yale,2,1990-03-02,1990-03-04
+774th,Colorado College,2,2025-02-01,Current
+775th,Harvard,2,1985-12-06,1985-12-08
 776th,Harvard,2,1967-12-16,1967-12-18
-777th,Harvard,2,1985-12-06,1985-12-08
+777th,Yale,2,1912-01-01,1912-01-03
 778th,Maine,2,1980-02-19,1980-02-21
 779th,Massachusetts,2,2009-01-30,2009-02-01
 780th,Wisconsin,2,2010-04-08,2010-04-10
-781th,Boston University,2,1997-03-27,1997-03-29
+781th,Minnesota,2,2023-04-06,2023-04-08
 782th,Northeastern,2,1974-02-11,1974-02-13
-783th,Michigan Tech,1,1957-03-01,1957-03-02
+783th,Boston University,2,1997-03-27,1997-03-29
 784th,RIT,1,2007-12-29,2007-12-30
-785th,Michigan Tech,1,2007-10-26,2007-10-27
+785th,Michigan Tech,1,1957-03-01,1957-03-02
 786th,Minnesota-Duluth,1,1965-02-12,1965-02-13
 787th,Colorado College,1,1963-12-20,1963-12-21
 788th,Minnesota,1,1960-01-15,1960-01-16
@@ -860,9 +860,9 @@ Place,Team,Length (in days),From,To
 859th,Minnesota,1,1960-01-08,1960-01-09
 860th,Massachusetts,1,2007-02-02,2007-02-03
 861th,Colorado College,1,1955-12-13,1955-12-14
-862th,North Dakota,1,1990-11-30,1990-12-01
+862th,Michigan Tech,1,2007-10-26,2007-10-27
 863th,Minnesota-Duluth,1,1990-10-26,1990-10-27
-864th,Brown,1,1990-02-16,1990-02-17
+864th,North Dakota,1,1990-11-30,1990-12-01
 865th,North Dakota,1,1968-03-15,1968-03-16
 866th,Michigan State,1,1992-01-17,1992-01-18
 867th,Maine,1,1990-12-28,1990-12-29
@@ -909,9 +909,9 @@ Place,Team,Length (in days),From,To
 908th,Clarkson,1,2014-01-10,2014-01-11
 909th,North Dakota,1,1970-02-20,1970-02-21
 910th,Vermont,1,1990-02-23,1990-02-24
-911th,Northern Michigan,1,1980-03-28,1980-03-29
+911th,Brown,1,1990-02-16,1990-02-17
 912th,Minnesota-Duluth,1,2017-11-10,2017-11-11
-913th,North Dakota,1,2017-03-17,2017-03-18
+913th,Northern Michigan,1,1980-03-28,1980-03-29
 914th,North Dakota,1,1978-03-03,1978-03-04
 915th,Michigan,1,1978-01-27,1978-01-28
 916th,Boston College,1,2019-01-11,2019-01-12
@@ -924,8 +924,8 @@ Place,Team,Length (in days),From,To
 923th,Lake Superior,1,1984-12-28,1984-12-29
 924th,Ohio State,1,1984-11-02,1984-11-03
 925th,Army,1,1985-11-15,1985-11-16
-926th,Wisconsin,1,1979-11-02,1979-11-03
-927th,North Dakota,1,1979-11-23,1979-11-24
+926th,North Dakota,1,2017-03-17,2017-03-18
+927th,Wisconsin,1,1979-11-02,1979-11-03
 928th,Minnesota,1,1979-10-26,1979-10-27
 929th,Minnesota,1,1979-02-02,1979-02-03
 930th,North Dakota,1,1978-01-06,1978-01-07
@@ -938,9 +938,9 @@ Place,Team,Length (in days),From,To
 937th,Michigan State,1,2019-11-08,2019-11-09
 938th,North Dakota,1,1979-02-23,1979-02-24
 939th,Providence,1,2019-02-08,2019-02-09
-940th,Wisconsin,1,1976-01-23,1976-01-24
+940th,North Dakota,1,1979-11-23,1979-11-24
 941th,Notre Dame,1,1975-11-14,1975-11-15
-942th,Quinnipiac,1,2022-03-18,2022-03-19
-943th,Yale,1,1910-12-28,1910-12-29
-944th,Yale,1,1903-12-30,1903-12-31
-945th,Colorado College,1,2025-02-01,Current
+942th,Wisconsin,1,1976-01-23,1976-01-24
+943th,Quinnipiac,1,2022-03-18,2022-03-19
+944th,Yale,1,1910-12-28,1910-12-29
+945th,Yale,1,1903-12-30,1903-12-31
