@@ -505,12 +505,12 @@ Place,Team,Length (in days),From,To
 504th,Connecticut,7,2023-03-04,2023-03-11
 505th,Michigan Tech,7,1955-02-05,1955-02-12
 506th,Harvard,7,1929-03-02,1929-03-09
-507th,Western Michigan,7,2005-02-05,2005-02-12
-508th,Omaha,7,2024-03-16,2024-03-23
+507th,Colorado College,7,2025-02-01,Current
+508th,Western Michigan,7,2005-02-05,2005-02-12
 509th,Michigan,7,1994-11-19,1994-11-26
 510th,Michigan,7,1994-11-11,1994-11-18
 511th,Colorado College,7,2024-02-16,2024-02-23
-512th,Western Michigan,7,2012-03-17,2012-03-24
+512th,Omaha,7,2024-03-16,2024-03-23
 513th,Miami,7,1993-02-06,1993-02-13
 514th,Brown,7,2013-10-25,2013-11-01
 515th,Colorado College,7,2013-03-16,2013-03-23
@@ -519,9 +519,9 @@ Place,Team,Length (in days),From,To
 518th,Michigan,7,1993-03-13,1993-03-20
 519th,Northeastern,7,2012-10-13,2012-10-20
 520th,Ferris State,7,1994-10-22,1994-10-29
-521th,Michigan Tech,7,2013-03-02,2013-03-09
+521th,Western Michigan,7,2012-03-17,2012-03-24
 522th,St. Cloud State,7,2013-02-23,2013-03-02
-523th,Clarkson,7,2020-02-14,2020-02-21
+523th,Michigan Tech,7,2013-03-02,2013-03-09
 524th,Minnesota-Duluth,7,1976-02-28,1976-03-06
 525th,Minnesota,7,1970-02-21,1970-02-28
 526th,Minnesota,7,1970-02-13,1970-02-20
@@ -536,7 +536,7 @@ Place,Team,Length (in days),From,To
 535th,Wisconsin,7,1995-03-18,1995-03-25
 536th,Michigan,7,2012-01-13,2012-01-20
 537th,Notre Dame,7,2010-11-06,2010-11-13
-538th,Quinnipiac,7,2010-02-06,2010-02-13
+538th,Clarkson,7,2020-02-14,2020-02-21
 539th,Boston University,7,1946-12-11,1946-12-18
 540th,Harvard,7,1948-02-18,1948-02-25
 541th,Minnesota,7,1949-01-14,1949-01-21
@@ -597,7 +597,7 @@ Place,Team,Length (in days),From,To
 596th,Ferris State,7,1984-10-12,1984-10-19
 597th,Denver,7,2002-03-16,2002-03-23
 598th,Yale,7,1980-02-09,1980-02-16
-599th,Denver,7,2008-03-22,2008-03-29
+599th,Quinnipiac,7,2010-02-06,2010-02-13
 600th,Princeton,7,2010-01-29,2010-02-05
 601th,Harvard,7,1972-01-08,1972-01-15
 602th,Harvard,7,1985-03-02,1985-03-09
@@ -605,31 +605,31 @@ Place,Team,Length (in days),From,To
 604th,Michigan,7,2016-03-19,2016-03-26
 605th,Denver,7,1958-02-22,1958-03-01
 606th,Michigan,7,1975-11-15,1975-11-22
-607th,Minnesota,7,1987-10-16,1987-10-23
-608th,St. Lawrence,6,2020-02-22,2020-02-28
+607th,Denver,7,2008-03-22,2008-03-29
+608th,Minnesota,7,1987-10-16,1987-10-23
 609th,Michigan Tech,6,2011-03-05,2011-03-11
 610th,Denver,6,1995-01-07,1995-01-13
 611th,Michigan State,6,1966-01-08,1966-01-14
 612th,Northeastern,6,1995-11-04,1995-11-10
 613th,Merrimack,6,2014-01-11,2014-01-17
 614th,Boston University,6,2013-11-30,2013-12-06
-615th,Michigan State,6,1967-03-11,1967-03-17
+615th,St. Lawrence,6,2020-02-22,2020-02-28
 616th,Boston College,6,1990-01-07,1990-01-13
-617th,Connecticut,6,2023-02-25,2023-03-03
+617th,Michigan,6,1994-10-29,1994-11-04
 618th,Michigan State,6,1994-11-05,1994-11-11
-619th,Michigan,6,1994-10-29,1994-11-04
+619th,North Dakota,6,2025-01-11,2025-01-17
 620th,Colgate,6,2022-03-12,2022-03-18
 621th,Providence,6,2022-12-31,2023-01-06
-622th,Ferris State,6,2005-01-01,2005-01-07
-623th,Colorado College,6,2025-02-01,Current
+622th,Connecticut,6,2023-02-25,2023-03-03
+623th,Ferris State,6,2005-01-01,2005-01-07
 624th,Boston University,6,1974-01-12,1974-01-18
 625th,Western Michigan,6,1993-02-13,1993-02-19
 626th,Michigan,6,1994-01-15,1994-01-21
-627th,North Dakota,6,2025-01-11,2025-01-17
+627th,Wisconsin,6,2013-03-23,2013-03-29
 628th,Michigan State,6,1994-02-19,1994-02-25
-629th,Wisconsin,6,2013-03-23,2013-03-29
-630th,Colorado College,6,2013-03-09,2013-03-15
-631th,Mass.-Lowell,6,2023-03-11,2023-03-17
+629th,Colorado College,6,2013-03-09,2013-03-15
+630th,Mass.-Lowell,6,2023-03-11,2023-03-17
+631th,Michigan State,6,1967-03-11,1967-03-17
 632th,Miami,6,1992-01-18,1992-01-24
 633th,Massachusetts,6,2019-03-02,2019-03-08
 634th,Wisconsin,6,1990-10-27,1990-11-02
