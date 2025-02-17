@@ -380,17 +380,17 @@ Place,Team,Length (in days),From,To
 379th,St. Lawrence,2,1954-12-20,1954-12-22
 380th,Air Force,2,2010-11-05,2010-11-07
 381th,Niagara,2,2024-02-22,2024-02-24
-382th,Merrimack,2,1991-11-13,1991-11-15
-383th,Yale,2,2022-12-31,2023-01-02
-384th,Brown,2,2011-12-01,2011-12-03
-385th,Bowling Green,1,2018-11-16,2018-11-17
+382th,Yale,2,2022-12-31,2023-01-02
+383th,Robert Morris,2,2025-02-15,Current
+384th,Merrimack,2,1991-11-13,1991-11-15
+385th,Brown,2,2011-12-01,2011-12-03
 386th,Northern Michigan,1,2017-10-06,2017-10-07
 387th,Alaska-Anchorage,1,2017-11-03,2017-11-04
 388th,Army,1,2008-11-07,2008-11-08
 389th,Sacred Heart,1,2009-11-06,2009-11-07
 390th,Holy Cross,1,2008-12-05,2008-12-06
 391th,Northern Michigan,1,2018-11-23,2018-11-24
-392th,Air Force,1,2014-01-03,2014-01-04
+392th,Bowling Green,1,2018-11-16,2018-11-17
 393th,Niagara,1,2014-01-10,2014-01-11
 394th,Merrimack,1,2014-01-24,2014-01-25
 395th,Northern Michigan,1,2014-11-07,2014-11-08
@@ -406,9 +406,9 @@ Place,Team,Length (in days),From,To
 405th,Holy Cross,1,2012-01-13,2012-01-14
 406th,Northern Michigan,1,2017-01-06,2017-01-07
 407th,Michigan Tech,1,2016-12-02,2016-12-03
-408th,Bowling Green,1,2005-12-02,2005-12-03
+408th,Air Force,1,2014-01-03,2014-01-04
 409th,Canisius,1,2005-02-25,2005-02-26
-410th,Bowling Green,1,2020-12-05,2020-12-06
+410th,Bowling Green,1,2005-12-02,2005-12-03
 411th,Holy Cross,1,2008-11-21,2008-11-22
 412th,Michigan Tech,1,1989-12-01,1989-12-02
 413th,Army,1,2022-01-07,2022-01-08
@@ -423,7 +423,7 @@ Place,Team,Length (in days),From,To
 422th,Boston College,1,2006-12-08,2006-12-09
 423th,Niagara,1,2007-10-12,2007-10-13
 424th,Alaska,1,2019-02-08,2019-02-09
-425th,Army,1,2022-01-21,2022-01-22
+425th,Bowling Green,1,2020-12-05,2020-12-06
 426th,Ferris State,1,1990-02-16,1990-02-17
 427th,Air Force,1,1990-01-02,1990-01-03
 428th,Denver,1,1973-11-09,1973-11-10
@@ -433,12 +433,12 @@ Place,Team,Length (in days),From,To
 432th,Army,1,1988-11-25,1988-11-26
 433th,Alaska-Anchorage,1,1980-10-31,1980-11-01
 434th,Cornell,1,1986-11-14,1986-11-15
-435th,Minnesota,1,1972-01-07,1972-01-08
+435th,Army,1,2022-01-21,2022-01-22
 436th,North Dakota,1,1971-01-15,1971-01-16
 437th,Minnesota,1,1972-12-01,1972-12-02
-438th,Bentley,1,2023-02-17,2023-02-18
-439th,Lindenwood,1,2023-10-07,2023-10-08
-440th,Michigan State,1,2023-10-12,2023-10-13
-441th,Mass.-Lowell,1,2024-01-05,2024-01-06
-442th,Niagara,1,2025-02-14,2025-02-15
-443th,Robert Morris,1,2025-02-15,Current
+438th,Minnesota,1,1972-01-07,1972-01-08
+439th,Bentley,1,2023-02-17,2023-02-18
+440th,Lindenwood,1,2023-10-07,2023-10-08
+441th,Michigan State,1,2023-10-12,2023-10-13
+442th,Mass.-Lowell,1,2024-01-05,2024-01-06
+443th,Niagara,1,2025-02-14,2025-02-15

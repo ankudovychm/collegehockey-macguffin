@@ -771,20 +771,20 @@ Place,Team,Length (in days),From,To
 770th,Yale,2,1990-03-02,1990-03-04
 771th,Harvard,2,1985-12-06,1985-12-08
 772th,Minnesota,2,2008-03-20,2008-03-22
-773th,Colorado College,2,1996-03-28,1996-03-30
-774th,Maine,2,1995-03-30,1995-04-01
+773th,Yale,2,1957-01-02,1957-01-04
+774th,Colorado College,2,1996-03-28,1996-03-30
 775th,Providence,2,2003-01-03,2003-01-05
 776th,Harvard,2,1967-12-16,1967-12-18
 777th,Colorado College,2,1960-01-09,1960-01-11
-778th,Yale,2,1957-01-02,1957-01-04
+778th,North Dakota,2,2025-02-15,Current
 779th,Boston University,2,1997-03-27,1997-03-29
 780th,Northeastern,2,1974-02-11,1974-02-13
 781th,Boston College,2,2006-04-06,2006-04-08
-782th,Minnesota-Duluth,2,1984-03-22,1984-03-24
+782th,Maine,2,1995-03-30,1995-04-01
 783th,Maine,2,1980-02-19,1980-02-21
 784th,Boston University,2,1937-02-24,1937-02-26
-785th,Quinnipiac,1,2022-03-18,2022-03-19
-786th,Minnesota,1,1971-03-19,1971-03-20
+785th,Minnesota-Duluth,2,1984-03-22,1984-03-24
+786th,Quinnipiac,1,2022-03-18,2022-03-19
 787th,Merrimack,1,2023-03-17,2023-03-18
 788th,North Dakota,1,2000-01-21,2000-01-22
 789th,Maine,1,1988-03-08,1988-03-09
@@ -804,7 +804,7 @@ Place,Team,Length (in days),From,To
 803th,Merrimack,1,1988-12-21,1988-12-22
 804th,Western Michigan,1,1988-12-17,1988-12-18
 805th,Colorado College,1,2011-01-28,2011-01-29
-806th,Minnesota,1,2011-01-14,2011-01-15
+806th,Minnesota,1,1971-03-19,1971-03-20
 807th,Clarkson,1,1971-03-12,1971-03-13
 808th,Yale,1,1910-12-28,1910-12-29
 809th,Maine,1,2009-03-14,2009-03-15
@@ -833,8 +833,8 @@ Place,Team,Length (in days),From,To
 832th,Michigan State,1,2012-02-10,2012-02-11
 833th,Michigan State,1,2011-10-20,2011-10-21
 834th,Minnesota,1,1952-12-29,1952-12-30
-835th,Wisconsin,1,1987-03-06,1987-03-07
-836th,Brown,1,1990-02-16,1990-02-17
+835th,Minnesota,1,2011-01-14,2011-01-15
+836th,Wisconsin,1,1987-03-06,1987-03-07
 837th,Colorado College,1,2013-02-22,2013-02-23
 838th,Denver,1,2013-03-15,2013-03-16
 839th,Minnesota,1,1967-01-13,1967-01-14
@@ -842,7 +842,7 @@ Place,Team,Length (in days),From,To
 841th,Minnesota,1,1984-02-10,1984-02-11
 842th,Ohio State,1,1984-11-02,1984-11-03
 843th,Lake Superior,1,1984-12-28,1984-12-29
-844th,Ohio State,1,1994-11-04,1994-11-05
+844th,Brown,1,1990-02-16,1990-02-17
 845th,Bowling Green,1,2012-02-24,2012-02-25
 846th,North Dakota,1,2012-03-24,2012-03-25
 847th,Army,1,1985-11-15,1985-11-16
@@ -874,7 +874,7 @@ Place,Team,Length (in days),From,To
 873th,Minnesota,1,2015-03-06,2015-03-07
 874th,Minnesota-Duluth,1,2015-03-27,2015-03-28
 875th,North Dakota,1,1979-02-23,1979-02-24
-876th,Ferris State,1,1994-02-25,1994-02-26
+876th,Ohio State,1,1994-11-04,1994-11-05
 877th,Miami,1,1994-11-18,1994-11-19
 878th,St. Cloud State,1,1995-01-06,1995-01-07
 879th,Cornell,1,2006-12-29,2006-12-30
@@ -891,11 +891,11 @@ Place,Team,Length (in days),From,To
 890th,North Dakota,1,1979-11-23,1979-11-24
 891th,Wisconsin,1,1979-11-02,1979-11-03
 892th,Minnesota,1,1979-10-26,1979-10-27
-893th,Lake Superior,1,1996-03-22,1996-03-23
+893th,Ferris State,1,1994-02-25,1994-02-26
 894th,Michigan Tech,1,2004-10-29,2004-10-30
 895th,Denver,1,1954-02-08,1954-02-09
 896th,St. Cloud State,1,2004-12-03,2004-12-04
-897th,Colorado College,1,1995-03-17,1995-03-18
+897th,Lake Superior,1,1996-03-22,1996-03-23
 898th,Michigan,1,1978-01-27,1978-01-28
 899th,Wisconsin,1,1968-12-13,1968-12-14
 900th,Denver,1,2016-12-09,2016-12-10
@@ -911,17 +911,17 @@ Place,Team,Length (in days),From,To
 910th,North Dakota,1,1978-01-06,1978-01-07
 911th,New Hampshire,1,2003-02-01,2003-02-02
 912th,Yale,1,1998-01-10,1998-01-11
-913th,Boston College,1,2004-03-12,2004-03-13
+913th,Colorado College,1,1995-03-17,1995-03-18
 914th,North Dakota,1,1978-03-03,1978-03-04
 915th,Vermont,1,1995-11-24,1995-11-25
 916th,North Dakota,1,1968-03-15,1968-03-16
 917th,Notre Dame,1,1975-11-14,1975-11-15
 918th,Minnesota,1,1960-01-08,1960-01-09
 919th,Michigan State,1,1959-03-13,1959-03-14
-920th,Colorado College,1,2018-11-16,2018-11-17
+920th,Boston College,1,2004-03-12,2004-03-13
 921th,Boston College,1,2019-01-11,2019-01-12
 922th,Providence,1,2019-02-08,2019-02-09
-923th,North Dakota,1,1970-02-20,1970-02-21
+923th,Colorado College,1,2018-11-16,2018-11-17
 924th,Wisconsin,1,1976-01-23,1976-01-24
 925th,Michigan Tech,1,1957-03-01,1957-03-02
 926th,Minnesota,1,1958-01-17,1958-01-18
@@ -929,21 +929,21 @@ Place,Team,Length (in days),From,To
 928th,Clarkson,1,2001-12-07,2001-12-08
 929th,Colorado College,1,2002-02-15,2002-02-16
 930th,Michigan State,1,1997-02-22,1997-02-23
-931th,Minnesota,1,1997-10-31,1997-11-01
+931th,North Dakota,1,1970-02-20,1970-02-21
 932th,Michigan State,1,1976-02-20,1976-02-21
 933th,Harvard,1,1998-01-02,1998-01-03
-934th,Michigan Tech,1,2000-10-20,2000-10-21
+934th,Minnesota,1,1997-10-31,1997-11-01
 935th,Colorado College,1,2000-12-08,2000-12-09
-936th,Minnesota State,1,2000-10-27,2000-10-28
+936th,Michigan Tech,1,2000-10-20,2000-10-21
 937th,Boston University,1,2000-12-29,2000-12-30
 938th,Wisconsin,1,2001-02-16,2001-02-17
 939th,Colorado College,1,1955-12-13,1955-12-14
-940th,Cornell,1,1998-01-30,1998-01-31
-941th,Dartmouth,1,1998-02-06,1998-02-07
-942th,Union,1,1998-10-23,1998-10-24
+940th,Minnesota State,1,2000-10-27,2000-10-28
+941th,Cornell,1,1998-01-30,1998-01-31
+942th,Dartmouth,1,1998-02-06,1998-02-07
 943th,Michigan State,1,2019-11-08,2019-11-09
-944th,Harvard,1,2020-02-21,2020-02-22
-945th,Notre Dame,1,1969-01-30,1969-01-31
-946th,Arizona State,1,2023-11-10,2023-11-11
-947th,Denver,1,2025-02-14,2025-02-15
-948th,North Dakota,1,2025-02-15,Current
+944th,Union,1,1998-10-23,1998-10-24
+945th,Harvard,1,2020-02-21,2020-02-22
+946th,Notre Dame,1,1969-01-30,1969-01-31
+947th,Arizona State,1,2023-11-10,2023-11-11
+948th,Denver,1,2025-02-14,2025-02-15
