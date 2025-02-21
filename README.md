@@ -1,14 +1,11 @@
-# CollegeHockey-macguffin
- what if college hockey had a Macguffin?
+# The CollegeHockey-macguffin
 
-This is a python script that tracks a hypothetical Macguffin for college hockey. The output for todays date (11.06.2024) is in the /data folder. 
+The MacGuffin is the championship belt of college hockey.
 
-In the script, the calls to 
-* fetch_team_conference_data(teams_csv_name)
-* HistoricResults(1900,2023,hist_csv_name)
+It’s a symbolic title passed from one team to another, starting with the first college hockey team to win a game. Since then, every team that defeats the current MacGuffin holder claims the title, creating an unbroken chain of victories spanning over a century.
 
-are commented out because they are unlikely to change throughout time. Espechially HistoricResults which is also cosntly in terms of calling to the CHN site for data. They create teams.csv and historic.csv respectively so you likely do not need to run these either. 
+This site tracks the holder of the College Hockey MacGuffin amongst games between current NCAA D1 teams from 1900 to the present.
 
-Running this file will give you the most up to data info based on results as they post to CHNs site. 
+Histroic data from 2023 has already been pulled and is saved as to not pull and process the data every day. At 12 AM every night, the results of the current season are updated by pulling data from CHN with a Github action, updating the league-wide, conference wide reverse and regular macguffins. Additionally, it updates any 'for {xyz} days' statements, and their associated leaderboards. 
 
-At the tie of writing this, the Macguffin holder is Denver and the reverse is Niagra. This can be seen as the most recent results in their respective csv folders in /data. (they are also printed when you run the file)
+Images for each team and conferences were pulled from the atheltics website of the respective school where availible. 
