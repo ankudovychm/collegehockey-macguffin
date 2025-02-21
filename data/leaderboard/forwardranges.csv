@@ -607,9 +607,9 @@ Place,Team,Length (in days),From,To
 606th,Harvard,7,1968-02-21,1968-02-28
 607th,North Dakota,7,1973-02-16,1973-02-23
 608th,Colorado College,7,2025-02-01,2025-02-08
-609th,North Dakota,6,2025-02-08,2025-02-14
-610th,St. Lawrence,6,2020-02-22,2020-02-28
-611th,Princeton,6,1998-03-21,1998-03-27
+609th,North Dakota,6,2025-02-15,Current
+610th,North Dakota,6,2025-02-08,2025-02-14
+611th,St. Lawrence,6,2020-02-22,2020-02-28
 612th,St. Lawrence,6,1998-01-31,1998-02-06
 613th,North Dakota,6,2000-10-21,2000-10-27
 614th,Dartmouth,6,1997-12-27,1998-01-02
@@ -618,7 +618,7 @@ Place,Team,Length (in days),From,To
 617th,Massachusetts,6,2019-03-02,2019-03-08
 618th,Minnesota-Duluth,6,1997-11-15,1997-11-21
 619th,Niagara,6,1998-10-17,1998-10-23
-620th,Michigan State,6,1967-03-11,1967-03-17
+620th,Princeton,6,1998-03-21,1998-03-27
 621th,North Dakota,6,1975-11-01,1975-11-07
 622th,Northeastern,6,1995-11-04,1995-11-10
 623th,Colorado College,6,1958-03-01,1958-03-07
@@ -645,7 +645,7 @@ Place,Team,Length (in days),From,To
 644th,Maine,6,2009-02-07,2009-02-13
 645th,Vermont,6,2009-11-08,2009-11-14
 646th,Clarkson,6,2010-02-13,2010-02-19
-647th,Boston College,6,1990-01-07,1990-01-13
+647th,Michigan State,6,1967-03-11,1967-03-17
 648th,Massachusetts,6,2003-01-05,2003-01-11
 649th,Northeastern,6,2004-01-03,2004-01-09
 650th,Denver,6,1995-01-07,1995-01-13
@@ -696,12 +696,12 @@ Place,Team,Length (in days),From,To
 695th,Bowling Green,6,1984-11-03,1984-11-09
 696th,Colgate,6,1984-12-29,1985-01-04
 697th,Michigan State,6,1994-11-05,1994-11-11
-698th,Notre Dame,5,2014-03-16,2014-03-21
-699th,Michigan,5,1966-02-26,1966-03-03
+698th,Boston College,6,1990-01-07,1990-01-13
+699th,Notre Dame,5,2014-03-16,2014-03-21
 700th,Minnesota,5,2010-11-28,2010-12-03
 701th,Vermont,5,1996-03-23,1996-03-28
 702th,Michigan,5,1995-03-25,1995-03-30
-703th,Colorado College,5,1954-12-17,1954-12-22
+703th,Michigan,5,1966-02-26,1966-03-03
 704th,Maine,5,2003-02-02,2003-02-07
 705th,Dartmouth,5,1998-01-11,1998-01-16
 706th,Harvard,5,2022-03-19,2022-03-24
@@ -709,7 +709,7 @@ Place,Team,Length (in days),From,To
 708th,Ohio State,5,2011-10-15,2011-10-20
 709th,Michigan Tech,5,1973-03-06,1973-03-11
 710th,Robert Morris,5,2019-10-20,2019-10-25
-711th,North Dakota,5,2025-02-15,Current
+711th,Colorado College,5,1954-12-17,1954-12-22
 712th,Michigan State,5,1989-03-25,1989-03-30
 713th,St. Lawrence,5,2008-01-13,2008-01-18
 714th,Yale,4,1952-02-02,1952-02-06
