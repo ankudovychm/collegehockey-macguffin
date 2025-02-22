@@ -282,11 +282,11 @@ Place,Team,Length (in days),From,To
 281th,Wisconsin,7,2006-02-04,2006-02-11
 282th,Ohio State,7,2006-02-11,2006-02-18
 283th,Robert Morris,7,2024-12-07,2024-12-14
-284th,Bemidji State,7,2016-12-03,2016-12-10
+284th,Robert Morris,7,2025-02-15,Current
 285th,Bemidji State,7,2016-11-25,2016-12-02
 286th,Robert Morris,7,2012-01-06,2012-01-13
 287th,Northern Michigan,7,2014-11-22,2014-11-29
-288th,Holy Cross,7,2007-10-13,2007-10-20
+288th,Bemidji State,7,2016-12-03,2016-12-10
 289th,Alaska,7,2019-10-26,2019-11-02
 290th,Army,7,1969-02-24,1969-03-03
 291th,Canisius,7,2009-02-06,2009-02-13
@@ -297,12 +297,12 @@ Place,Team,Length (in days),From,To
 296th,Michigan Tech,7,2019-01-18,2019-01-25
 297th,Air Force,7,2009-01-16,2009-01-23
 298th,Canisius,7,2009-01-09,2009-01-16
-299th,Northern Michigan,6,2015-10-17,2015-10-23
-300th,Army,6,2024-11-09,2024-11-15
+299th,Holy Cross,7,2007-10-13,2007-10-20
+300th,Northern Michigan,6,2015-10-17,2015-10-23
 301th,Mercyhurst,6,2024-02-16,2024-02-22
 302th,Michigan,6,2023-11-18,2023-11-24
 303th,Alaska-Anchorage,6,2023-10-21,2023-10-27
-304th,Quinnipiac,6,2001-11-25,2001-12-01
+304th,Army,6,2024-11-09,2024-11-15
 305th,Holy Cross,6,2022-01-15,2022-01-21
 306th,Connecticut,6,2003-02-16,2003-02-22
 307th,Air Force,6,2021-11-13,2021-11-19
@@ -318,7 +318,7 @@ Place,Team,Length (in days),From,To
 317th,Wisconsin,6,1972-01-08,1972-01-14
 318th,Yale,6,1988-01-02,1988-01-08
 319th,St. Cloud State,6,1987-10-24,1987-10-30
-320th,American Int'l,6,2008-11-15,2008-11-21
+320th,Quinnipiac,6,2001-11-25,2001-12-01
 321th,American Int'l,6,2008-11-08,2008-11-14
 322th,Sacred Heart,6,2008-02-02,2008-02-08
 323th,Robert Morris,6,2005-10-09,2005-10-15
@@ -330,9 +330,9 @@ Place,Team,Length (in days),From,To
 329th,Providence,6,2007-10-20,2007-10-26
 330th,Vermont,6,2006-11-04,2006-11-10
 331th,RIT,6,2010-01-16,2010-01-22
-332th,Robert Morris,6,2012-01-14,2012-01-20
+332th,American Int'l,6,2008-11-15,2008-11-21
 333th,American Int'l,6,2014-01-04,2014-01-10
-334th,Ferris State,6,2014-11-01,2014-11-07
+334th,Robert Morris,6,2012-01-14,2012-01-20
 335th,Alaska,6,2017-12-02,2017-12-08
 336th,Bemidji State,6,2019-01-12,2019-01-18
 337th,American Int'l,6,2010-11-20,2010-11-26
@@ -340,11 +340,11 @@ Place,Team,Length (in days),From,To
 339th,Lake Superior,6,2018-11-17,2018-11-23
 340th,Lake Superior,6,2018-11-10,2018-11-16
 341th,Ferris State,6,2014-11-08,2014-11-14
-342th,Minnesota,6,1973-11-17,1973-11-23
+342th,Ferris State,6,2014-11-01,2014-11-07
 343th,RIT,6,2023-02-18,2023-02-24
 344th,Bemidji State,6,2016-02-13,2016-02-19
 345th,Minnesota State,6,2016-03-05,2016-03-11
-346th,Robert Morris,6,2025-02-15,Current
+346th,Minnesota,6,1973-11-17,1973-11-23
 347th,RIT,5,2010-11-07,2010-11-12
 348th,Bentley,5,2012-01-01,2012-01-06
 349th,Boston College,5,1974-02-15,1974-02-20
