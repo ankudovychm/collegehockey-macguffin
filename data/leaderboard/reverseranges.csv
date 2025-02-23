@@ -233,17 +233,17 @@ Place,Team,Length (in days),From,To
 232th,Yale,9,2011-11-22,2011-12-01
 233th,Army,9,1975-01-21,1975-01-30
 234th,American Int'l,9,2003-02-07,2003-02-16
-235th,Holy Cross,8,2022-01-22,2022-01-30
+235th,Robert Morris,8,2025-02-15,Current
 236th,Michigan,8,1973-02-23,1973-03-03
 237th,RIT,8,2023-02-09,2023-02-17
 238th,RIT,8,2025-01-10,2025-01-18
-239th,St. Lawrence,8,1987-01-02,1987-01-10
+239th,Holy Cross,8,2022-01-22,2022-01-30
 240th,Northeastern,8,2014-02-07,2014-02-15
 241th,Connecticut,8,2010-11-12,2010-11-20
 242th,Alaska-Anchorage,8,2014-11-14,2014-11-22
-243th,Army,8,2020-01-24,2020-02-01
+243th,St. Lawrence,8,1987-01-02,1987-01-10
 244th,Massachusetts,8,2007-10-26,2007-11-03
-245th,Bentley,8,2002-12-03,2002-12-11
+245th,Army,8,2020-01-24,2020-02-01
 246th,Mercyhurst,8,2002-03-01,2002-03-09
 247th,Alaska-Anchorage,8,2015-01-08,2015-01-16
 248th,Air Force,8,2023-10-13,2023-10-21
@@ -251,7 +251,7 @@ Place,Team,Length (in days),From,To
 250th,American Int'l,8,2009-02-13,2009-02-21
 251th,Mercyhurst,8,2006-10-13,2006-10-21
 252th,Brown,8,2004-11-05,2004-11-13
-253th,Omaha,7,2022-10-07,2022-10-14
+253th,Bentley,8,2002-12-03,2002-12-11
 254th,Minnesota,7,1989-11-11,1989-11-18
 255th,Colorado College,7,1989-12-02,1989-12-09
 256th,Rensselaer,7,2022-11-05,2022-11-12
@@ -259,11 +259,11 @@ Place,Team,Length (in days),From,To
 258th,Clarkson,7,2022-10-29,2022-11-05
 259th,Niagara,7,2024-11-02,2024-11-09
 260th,Northern Michigan,7,2015-10-24,2015-10-31
-261th,Brown,7,1958-02-12,1958-02-19
+261th,Omaha,7,2022-10-07,2022-10-14
 262th,Yale,7,1960-02-27,1960-03-05
-263th,Mercyhurst,7,2010-11-26,2010-12-03
+263th,North Dakota,7,1973-11-10,1973-11-17
 264th,Connecticut,7,2010-02-20,2010-02-27
-265th,North Dakota,7,1973-11-10,1973-11-17
+265th,Mercyhurst,7,2010-11-26,2010-12-03
 266th,Michigan Tech,7,1973-02-16,1973-02-23
 267th,Princeton,7,1988-11-18,1988-11-25
 268th,Holy Cross,7,2009-10-30,2009-11-06
@@ -281,8 +281,8 @@ Place,Team,Length (in days),From,To
 280th,Sacred Heart,7,2003-01-07,2003-01-14
 281th,Wisconsin,7,2006-02-04,2006-02-11
 282th,Ohio State,7,2006-02-11,2006-02-18
-283th,Robert Morris,7,2024-12-07,2024-12-14
-284th,Robert Morris,7,2025-02-15,Current
+283th,Brown,7,1958-02-12,1958-02-19
+284th,Robert Morris,7,2024-12-07,2024-12-14
 285th,Bemidji State,7,2016-11-25,2016-12-02
 286th,Robert Morris,7,2012-01-06,2012-01-13
 287th,Northern Michigan,7,2014-11-22,2014-11-29
