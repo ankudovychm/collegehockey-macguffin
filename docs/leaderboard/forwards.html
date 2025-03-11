@@ -80,11 +80,16 @@
         </div>
     </main>
 
-  <!-- Footer -->
-  <footer>
-    Created by <a style="color: #94BAE7" href="https://www.instagram.com/m.ish.aaa/">Misha Ankudovych</a>  || Data retrieved from <a style="color: #94BAE7" href="https://www.collegehockeynews.com/schedules/">CHN</a> || View source and submit bugs <a style="color: #94BAE7" href="https://github.com/ankudovychm/collegehockey-macguffin">here</a>
- </footer>
+<footer id="footer"></footer>
 
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('footer').innerHTML = html;
+    })
+    .catch(error => console.error('Error fetching footer:', error));
+</script>
 
     <!-- JavaScript for dynamically loading MacGuffin data -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
