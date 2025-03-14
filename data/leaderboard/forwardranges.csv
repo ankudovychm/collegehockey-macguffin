@@ -610,14 +610,14 @@ Place,Team,Length (in days),From,To
 609th,Michigan,7,1993-03-13,1993-03-20
 610th,Clarkson,7,2020-02-14,2020-02-21
 611th,St. Lawrence,6,2020-02-22,2020-02-28
-612th,Michigan,6,1994-01-15,1994-01-21
+612th,Colgate,6,2022-03-12,2022-03-18
 613th,Western Michigan,6,1993-02-13,1993-02-19
 614th,Michigan,6,1994-10-29,1994-11-04
 615th,Michigan State,6,1994-02-19,1994-02-25
-616th,Providence,6,2022-12-31,2023-01-06
-617th,Colgate,6,2022-03-12,2022-03-18
-618th,Connecticut,6,2023-02-25,2023-03-03
-619th,Northern Michigan,6,1987-01-17,1987-01-23
+616th,Omaha,6,2025-03-08,Current
+617th,Michigan,6,1994-01-15,1994-01-21
+618th,Providence,6,2022-12-31,2023-01-06
+619th,Connecticut,6,2023-02-25,2023-03-03
 620th,St. Cloud State,6,2000-03-11,2000-03-17
 621th,Michigan State,6,2016-03-05,2016-03-11
 622th,Denver,6,1987-01-31,1987-02-06
@@ -634,10 +634,10 @@ Place,Team,Length (in days),From,To
 633th,Penn State,6,2015-02-21,2015-02-27
 634th,Minnesota,6,1987-11-07,1987-11-13
 635th,Michigan State,6,1967-03-11,1967-03-17
-636th,Bowling Green,6,1984-11-03,1984-11-09
+636th,Northern Michigan,6,1987-01-17,1987-01-23
 637th,Cornell,6,1986-03-15,1986-03-21
-638th,Michigan,6,2015-02-07,2015-02-13
-639th,Michigan State,6,1997-02-08,1997-02-14
+638th,Bowling Green,6,1984-11-03,1984-11-09
+639th,Michigan,6,2015-02-07,2015-02-13
 640th,Colorado College,6,2013-03-09,2013-03-15
 641th,Wisconsin,6,2013-03-23,2013-03-29
 642th,Michigan Tech,6,1969-03-08,1969-03-14
@@ -678,7 +678,7 @@ Place,Team,Length (in days),From,To
 677th,North Dakota,6,1975-11-01,1975-11-07
 678th,Notre Dame,6,1976-02-14,1976-02-20
 679th,Minnesota-Duluth,6,1997-11-15,1997-11-21
-680th,Northeastern,6,1995-11-04,1995-11-10
+680th,Michigan State,6,1997-02-08,1997-02-14
 681th,Maine,6,2019-02-02,2019-02-08
 682th,Colgate,6,1990-02-24,1990-03-02
 683th,Wisconsin,6,1990-10-27,1990-11-02
@@ -694,15 +694,15 @@ Place,Team,Length (in days),From,To
 693th,Cornell,6,1990-02-17,1990-02-23
 694th,Colorado College,6,1958-03-01,1958-03-07
 695th,Denver,6,1960-01-27,1960-02-02
-696th,Boston College,6,2007-12-30,2008-01-05
+696th,Northeastern,6,1995-11-04,1995-11-10
 697th,Miami,6,1992-01-18,1992-01-24
 698th,Northeastern,6,1995-11-11,1995-11-17
 699th,Dartmouth,6,1997-12-27,1998-01-02
-700th,Notre Dame,5,2014-03-16,2014-03-21
+700th,Boston College,6,2007-12-30,2008-01-05
 701th,Colorado College,5,1954-12-17,1954-12-22
 702th,Ohio State,5,2011-10-15,2011-10-20
 703th,Vermont,5,1996-03-23,1996-03-28
-704th,Michigan Tech,5,1973-03-06,1973-03-11
+704th,Notre Dame,5,2014-03-16,2014-03-21
 705th,Michigan,5,1966-02-26,1966-03-03
 706th,Michigan State,5,1989-03-25,1989-03-30
 707th,St. Lawrence,5,2008-01-13,2008-01-18
@@ -710,7 +710,7 @@ Place,Team,Length (in days),From,To
 709th,Dartmouth,5,1998-01-11,1998-01-16
 710th,Harvard,5,2022-03-19,2022-03-24
 711th,Maine,5,2003-02-02,2003-02-07
-712th,Omaha,5,2025-03-08,Current
+712th,Michigan Tech,5,1973-03-06,1973-03-11
 713th,Minnesota,5,2010-11-28,2010-12-03
 714th,Robert Morris,5,2019-10-20,2019-10-25
 715th,Michigan,5,1995-03-25,1995-03-30
