@@ -477,7 +477,7 @@ Place,Team,Length (in days),From,To
 476th,Denver,8,2023-11-11,2023-11-19
 477th,Michigan,8,1976-11-05,1976-11-13
 478th,Minnesota,8,1970-01-09,1970-01-17
-479th,Wisconsin,8,1969-01-31,1969-02-08
+479th,Colorado College,8,1965-11-19,1965-11-27
 480th,Miami,8,1997-02-14,1997-02-22
 481th,Clarkson,8,1996-01-12,1996-01-20
 482th,Denver,8,1957-01-04,1957-01-12
@@ -488,28 +488,28 @@ Place,Team,Length (in days),From,To
 487th,New Hampshire,8,2008-10-31,2008-11-08
 488th,Colorado College,8,2008-02-01,2008-02-09
 489th,Michigan,8,1994-03-19,1994-03-27
-490th,Western Michigan,8,1994-03-11,1994-03-19
+490th,Wisconsin,8,1969-01-31,1969-02-08
 491th,Minnesota,8,2015-02-13,2015-02-21
 492th,Quinnipiac,8,2010-02-26,2010-03-06
 493th,Bowling Green,8,1989-02-24,1989-03-04
 494th,Minnesota-Duluth,8,1988-11-11,1988-11-19
 495th,Providence,8,1989-12-30,1990-01-07
 496th,Miami,8,2005-01-28,2005-02-05
-497th,Northeastern,8,1988-02-08,1988-02-16
-498th,Colorado College,8,1965-11-19,1965-11-27
+497th,Western Michigan,8,2025-03-21,Current
+498th,Northeastern,8,1988-02-08,1988-02-16
 499th,Harvard,8,1983-03-18,1983-03-26
 500th,Michigan,8,1984-10-19,1984-10-27
 501th,Minnesota,8,2016-02-26,2016-03-05
-502th,Providence,8,2009-10-31,2009-11-08
-503th,Boston University,8,2003-03-07,2003-03-15
-504th,Lake Superior,7,1993-02-19,1993-02-26
+502th,Western Michigan,8,1994-03-11,1994-03-19
+503th,Providence,8,2009-10-31,2009-11-08
+504th,Boston University,8,2003-03-07,2003-03-15
 505th,Michigan,7,2016-03-19,2016-03-26
 506th,Boston University,7,1946-12-11,1946-12-18
 507th,Brown,7,1970-12-05,1970-12-12
 508th,Michigan State,7,1990-12-21,1990-12-28
 509th,Harvard,7,1972-01-08,1972-01-15
 510th,Miami,7,1993-02-06,1993-02-13
-511th,North Dakota,7,1973-02-16,1973-02-23
+511th,Lake Superior,7,1993-02-19,1993-02-26
 512th,Colorado College,7,1973-02-23,1973-03-02
 513th,Northern Michigan,7,1985-01-04,1985-01-11
 514th,New Hampshire,7,2018-11-24,2018-12-01
@@ -541,10 +541,10 @@ Place,Team,Length (in days),From,To
 540th,New Hampshire,7,2004-02-28,2004-03-06
 541th,Yale,7,1980-02-09,1980-02-16
 542th,Princeton,7,1936-01-11,1936-01-18
-543th,Minnesota,7,2004-10-09,2004-10-16
-544th,Denver,7,2008-03-22,2008-03-29
+543th,North Dakota,7,1973-02-16,1973-02-23
+544th,Minnesota,7,2004-10-09,2004-10-16
 545th,Minnesota,7,2015-03-20,2015-03-27
-546th,New Hampshire,7,1993-11-12,1993-11-19
+546th,Denver,7,2008-03-22,2008-03-29
 547th,Michigan,7,1975-11-07,1975-11-14
 548th,Michigan,7,1975-11-15,1975-11-22
 549th,Ohio State,7,1997-02-23,1997-03-02
@@ -573,7 +573,7 @@ Place,Team,Length (in days),From,To
 572th,Wisconsin,7,1995-03-18,1995-03-25
 573th,Denver,7,2002-03-16,2002-03-23
 574th,Michigan,7,1993-03-13,1993-03-20
-575th,Northeastern,7,2012-10-13,2012-10-20
+575th,New Hampshire,7,1993-11-12,1993-11-19
 576th,Western Michigan,7,2012-03-17,2012-03-24
 577th,Michigan,7,2012-01-13,2012-01-20
 578th,Colorado College,7,2013-03-16,2013-03-23
@@ -592,14 +592,14 @@ Place,Team,Length (in days),From,To
 591th,Michigan Tech,7,2013-03-02,2013-03-09
 592th,Minnesota,7,1954-01-09,1954-01-16
 593th,Mass.-Lowell,7,1995-11-17,1995-11-24
-594th,Notre Dame,7,2011-10-08,2011-10-15
+594th,Northeastern,7,2012-10-13,2012-10-20
 595th,Harvard,7,1968-02-21,1968-02-28
 596th,Boston University,7,1999-02-20,1999-02-27
 597th,North Dakota,7,2025-03-01,2025-03-08
 598th,North Dakota,7,2025-03-14,2025-03-21
-599th,Western Michigan,7,2025-03-21,Current
-600th,Boston University,7,1988-02-01,1988-02-08
-601th,Brown,7,1967-12-09,1967-12-16
+599th,Boston University,7,1988-02-01,1988-02-08
+600th,Brown,7,1967-12-09,1967-12-16
+601th,Notre Dame,7,2011-10-08,2011-10-15
 602th,Minnesota State,7,2010-12-03,2010-12-10
 603th,Notre Dame,7,2010-11-06,2010-11-13
 604th,Ferris State,7,1984-10-12,1984-10-19
